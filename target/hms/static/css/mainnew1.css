@@ -1,0 +1,376 @@
+/*
+
+Radiator Digital
+http://www.radiatordigital.com
+
+*/
+/* line 15, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.lightBlue .paddingTB50 + .paddingTB50 {
+    padding-top: 0;
+    margin-top: -30px;
+}
+
+/* line 21, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.feeeds {
+    padding: 0;
+}
+
+/* line 25, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.topLogo img {
+    max-width: 600px;
+}
+
+/* line 30, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.fLogo img {
+    max-width: 300px;
+    border-right: 5px solid #333;
+    border-left: 2px solid #333;
+}
+
+/* line 37, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+footer .newsCol .contourNavigation input {
+    background-color: #BB8D0A;
+}
+    /* line 39, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    footer .newsCol .contourNavigation input:hover {
+        background-color: #725606;
+    }
+
+/* line 53, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.Bluebttn, a.Bluebttn {
+    background-color: #BB8D0A;
+    border-color: #BB8D0A;
+}
+    /* line 56, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    .Bluebttn:hover, a.Bluebttn:hover {
+        border-color: #725606;
+        background-color: #BB8D0A;
+    }
+    /* line 60, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    .Bluebttn:active, .Bluebttn:visited, .Bluebttn:focus, a.Bluebttn:active, a.Bluebttn:visited, a.Bluebttn:focus {
+        border: 5px solid #BB8D0A;
+        background-color: #BB8D0A;
+    }
+
+/* line 66, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.Borderbttn, a.Borderbttn {
+    color: #210803;
+    border-color: #cfcfcf;
+}
+    /* line 69, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    .Borderbttn:hover, a.Borderbttn:hover {
+        background-color: #BB8D0A;
+        color: #210803;
+        border-color: #725606;
+    }
+    /* line 74, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    .Borderbttn:active, a.Borderbttn:active {
+        background-color: #210803;
+    }
+
+/* line 112, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+h1, h2, h3, h4, h5, h6, .IheadText30 {
+    color: #210803;
+}
+/* line 114, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.innJumper h1, .banner h1, .innJumper h2, .banner h2, .innJumper h3, .banner h3, .innJumper h4, .banner h4, .innJumper h5, .banner h5, .innJumper h6, .banner h6, .innJumper .IheadText30, .banner .IheadText30 {
+    color: #fff;
+}
+
+/* line 119, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.featureList h3 {
+    color: #210803;
+}
+
+/* line 124, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.article .articleTitle.heading {
+    color: #a37b09;
+}
+/* line 127, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.article .richText h3 {
+    color: #a37b09;
+}
+
+/* line 132, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+#GetNews .pagination li a {
+    color: #a37b09;
+}
+
+/* line 138, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+div.carousel .item {
+    background-color: #0a0201;
+}
+
+/* line 142, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.owl-carousel .owl-item .panelLink {
+    background-color: #0a0201;
+}
+    /* line 144, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    .owl-carousel .owl-item .panelLink:hover {
+        background-color: #725606;
+    }
+
+/* line 152, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+div.mainNav a {
+    color: #210803;
+    text-transform: uppercase;
+}
+    /* line 155, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    div.mainNav a i, div.mainNav a::before {
+        color: #BB8D0A;
+    }
+    /* line 159, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    div.mainNav a:hover i, div.mainNav a:hover::before {
+        color: #210803;
+    }
+/* line 164, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+div.mainNav li.l0.dd:hover a.title {
+    background-color: #BB8D0A;
+}
+
+/* line 169, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+nav#menu {
+    color: #210803;
+}
+    /* line 171, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+    nav#menu li.homeRoad img {
+        max-width: 100%;
+        left: -4px;
+    }
+
+/* line 180, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.faqListless .panel .accordion-toggle h2 {
+    color: #a37b09;
+}
+
+/* line 185, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.faqListless .panel .accordion-toggle .fa, .faqListless .panel .accordion-toggle .visible-xs .header a::before, .visible-xs .header .faqListless .panel .accordion-toggle a::before, .faqListless .panel .accordion-toggle div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd .faqListless .panel .accordion-toggle a.title::before, .faqListless .panel .accordion-toggle .weatherStn div.going a::before, .weatherStn div.going .faqListless .panel .accordion-toggle a::before, .faqListless .panel .accordion-toggle .owl-carousel .owl-controls .owl-nav div::before, .owl-carousel .owl-controls .owl-nav .faqListless .panel .accordion-toggle div::before {
+    color: #a37b09;
+}
+
+/* line 191, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.raceCalendar li .raceDetails .date .blueText {
+    color: #BB8D0A;
+}
+/* line 195, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.raceCalendar li a.poster {
+    background-color: #725606;
+}
+/* line 198, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.raceCalendar li h3 a {
+    color: #210803;
+}
+
+/* line 205, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.IheadText30:first-child:last-child {
+    margin: 0 auto;
+}
+
+/* line 209, X:/___templates/Ayr racecourse/css/westernHouse.scss */
+.featureList a.areaLink::after {
+    -moz-box-shadow: 0 0 0 9px #fff, 0 0 0 10px #cfcfcf, 0 30px 30px -20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 0 9px #fff, 0 0 0 10px #cfcfcf, 0 30px 30px -20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 9px #fff, 0 0 0 10px #cfcfcf, 0 30px 30px -20px rgba(0, 0, 0, 0.3);
+}
+
+
+#quickbook{
+    width:100%;
+    display: block;
+    background-color:#BB8D0A;
+    color:white;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 15px;*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#quickbook div span{
+    width:100%;
+    clear:both;
+    display:block;
+}
+
+#c5QuickBookButton{
+    margin-top: 15%;
+    background-color:#210803;
+    color:#fff;
+}
+	
+.c5QuickBookButton{
+    margin-top: 15%;
+    background-color:#210803;
+    color:#fff;
+}	
+.row{
+	/*padding-left: 10px;	*/
+}
+
+.col-md-1, .col-md-2, .col-md-3{
+	width: auto;
+    padding: 0 7px;
+}
+
+.col-md-3{
+	padding-right: 7px;
+	width: auto;
+}
+
+@media screen and (max-width: 1060px){
+	
+	.col-md-2 {
+		padding-right: 0;
+	}
+}
+
+
+@media screen and (max-width: 990px){
+	
+	.Bluebttn{
+		margin-right: 15px;
+	}
+	
+	.row{
+		margin-bottom: 50px;
+		padding-left: 5px;
+	}
+			
+	.col-md-1, .col-md-2, .col-md-3{
+		display: inline-block;
+		padding-left: 5px;
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+	.Bluebttn{
+		margin-right: 15px;
+	}
+
+	.row{
+		padding-left: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.col-md-1, .col-md-2, .col-md-3{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right:0px;
+	}	
+
+}
+	
+@media screen and (max-width: 780px){	
+
+	.col-md-1, .col-md-2, .col-md-3{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right:0px;
+	}	
+	
+}
+
+@media screen and (max-width: 500px){
+	
+	.row{
+		padding-bottom: 10px;
+	}
+	
+}
+	
+@media screen and (max-width: 400px){
+
+	.col-md-1, .col-md-2, {
+	display: inline-block;
+	padding-bottom: 10px;
+	clear:both;
+	}
+		
+}
+					
+@media screen and (max-width: 333px){					
+	.col-md-1, .col-md-2, {
+	display: block;
+	padding-bottom: 10px;
+	}														
+												
+}
+
+#tour{
+    margin:0 auto;
+    width:735px;
+    height:430px;
+}
+		
+  .col-md-6.column img{
+    max-width: 100%;
+  }
+							
+img+p.caption{
+	font-style: italic;
+	color: #999;
+	margin-top: 7px;
+	margin-bottom: 2em;
+	font-size: 13px;
+	line-height: 140%;
+}
+							
+
+form#c5QuickBook {
+  float: left;
+  width: 70%;
+}
+
+form#c5QuickBook span {
+  margin: 0 0 5px 0;
+}
+
+form#c5QuickBook select {
+  padding: 5px;
+}
+
+form#c5QuickBook select#multiRoom {
+  width: 100%;
+}
+
+form#c5QuickBook button {
+  margin-top: 25px;
+}
+
+form#c5QuickBook button:hover {
+  background-color: #725606;
+  color: #fff;
+}
+
+form#c5QuickBook .col-md-1, form#c5QuickBook .col-md-2, form#c5QuickBook .col-md-3 {
+  padding: 0 8px;
+}
+
+form#promoCodeForm {
+  float: right;
+  width: 30%;
+}
+
+form#promoCodeForm select {
+  padding: 5px;
+}
+
+form#promoCodeForm div span {
+  margin: 0 0 5px 0;
+}
+
+form#promoCodeForm div input[type="password"] {
+  padding: 5px;
+}
+
+form#promoCodeForm div button {
+  margin-top: -5px;
+}
+
+form#promoCodeForm div button:hover {
+  background-color: #725606;
+  color: #fff;
+}
+
+							/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

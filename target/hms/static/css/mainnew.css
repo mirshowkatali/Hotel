@@ -1,0 +1,6618 @@
+@charset "utf-8";
+/*
+
+Radiator Digital
+http://www.radiatordigital.com
+
+*/
+/* CSS Document */
+/* line 8, main.scss */
+body {
+  font-family: 'Open Sans', Arial, Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  background-color: #FFF;
+  line-height: normal;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/* line 15, main.scss */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 19, main.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 22, main.scss */
+button, html input[type="button"],
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* Bootstrap Override Css */
+/* line 28, main.scss */
+p {
+  margin: 0 0 15px;
+  line-height: 24px;
+}
+
+/* line 29, main.scss */
+hr {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 30px 0;
+  border-width: 0 0 1px;
+}
+
+/* line 30, main.scss */
+a {
+  color: #1e4164;
+}
+
+/* line 31, main.scss */
+a:hover {
+  color: #165594;
+}
+
+/* line 33, main.scss */
+a {
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+/* line 38, main.scss */
+a:hover {
+  -webkit-transition: ease-out 0s;
+  -moz-transition: ease-out 0s;
+  -o-transition: ease-out 0s;
+  transition: ease-out 0s;
+}
+
+/* line 42, main.scss */
+a:focus {
+  text-decoration: none;
+  outline: none;
+  border: 0px;
+}
+
+/* line 44, main.scss */
+label {
+  font-weight: normal;
+}
+
+/* line 46, main.scss */
+.img-thumbnail {
+  border-radius: 0px;
+  border: 0px;
+  background: inherit;
+  box-shadow: inherit;
+  padding: 0px;
+}
+
+/* line 50, main.scss */
+.container {
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+}
+
+/* line 52, main.scss */
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none;
+  outline-offset: 0px;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* line 57, main.scss */
+.form-control:-moz-placeholder {
+  color: #000;
+}
+
+/* line 58, main.scss */
+.form-control::-moz-placeholder {
+  color: #000;
+}
+
+/* line 59, main.scss */
+.form-control:-ms-input-placeholder {
+  color: #000;
+}
+
+/* line 60, main.scss */
+.form-control::-webkit-input-placeholder {
+  color: #000;
+}
+
+/* line 62, main.scss */
+#breadcrumb {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+/* line 63, main.scss */
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+/* line 64, main.scss */
+.breadcrumb li {
+  float: left;
+  font-size: 14px;
+  color: #0d9ede;
+}
+
+/* line 65, main.scss */
+.breadcrumb li a {
+  color: #1e4164;
+}
+
+/* line 66, main.scss */
+.breadcrumb li a:hover {
+  color: #000;
+}
+
+/* line 67, main.scss */
+.breadcrumb > li + li:before {
+  content: "\f105";
+  color: #0d3a5c;
+  padding: 0 8px;
+  font-family: FontAwesome;
+  font-weight: normal;
+}
+
+/* line 68, main.scss */
+.breadcrumb > .active {
+  color: #000;
+  font-weight: normal;
+}
+
+/* line 70, main.scss */
+.pagination {
+  margin: 0 0 20px;
+}
+
+/* line 72, main.scss */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover,
+.pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: inherit;
+  border-color: #133880;
+  color: #444444;
+  font-weight: 400;
+}
+
+/* line 76, main.scss */
+.pagination > li > a:hover, .pagination > li > span:hover,
+.pagination > li > a:focus, .pagination > li > span:focus {
+  background: inherit;
+  font-weight: 400;
+  color: #444444;
+}
+
+/* line 77, main.scss */
+.pagination > li > a, .pagination > li {
+  margin: 0 1px;
+}
+
+/* line 78, main.scss */
+.pagination > li > a, .pagination > li > a {
+  border-right: 1px solid #444;
+}
+
+/* line 79, main.scss */
+.pagination > li > a, .pagination > li > span {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 8px;
+  border: 0px;
+  border-right: 1px solid #444;
+  color: #133880;
+}
+
+/* line 80, main.scss */
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-radius: 0;
+  padding-left: 0px;
+}
+
+/* line 81, main.scss */
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+  border-radius: 0;
+  border-right: 0px;
+}
+
+/* line 84, main.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Open Sans', Arial, Verdana, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* line 89, main.scss */
+h1 {
+  font-size: 54px;
+  margin: 0 0 20px;
+  padding: 0px;
+  font-weight: 700;
+}
+
+/* White Text */
+/* line 90, main.scss */
+h2 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+/* Black Text */
+/* line 91, main.scss */
+h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  padding: 0px;
+  font-weight: 400;
+  color: #4f6b86;
+}
+
+/* Blue Text */
+/* line 92, main.scss */
+h5 {
+  font-size: 14px;
+  margin: 0 0 10px;
+  padding: 0px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #4f6b86;
+  text-transform: uppercase;
+}
+
+/* Blue Text */
+/* line 93, main.scss */
+h6 {
+  font-size: 14px;
+  margin: 0 0 30px;
+  padding: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Black Text */
+/* line 96, main.scss */
+.paddingL0 {
+  padding-left: 0px;
+}
+
+/* line 97, main.scss */
+.paddingR0 {
+  padding-right: 0px;
+}
+
+/* line 98, main.scss */
+.paddingLR0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 99, main.scss */
+.paddingLR40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 100, main.scss */
+.paddingTB5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 101, main.scss */
+.paddingTB25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 102, main.scss */
+.paddingTB30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 103, main.scss */
+.paddingTB40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 104, main.scss */
+.paddingTB50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 105, main.scss */
+.padding1 {
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+/* line 106, main.scss */
+.padding2 {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* line 107, main.scss */
+.paddingT10 {
+  padding-top: 10px;
+}
+
+/* line 108, main.scss */
+.paddingT30 {
+  padding-top: 30px;
+}
+
+/* line 109, main.scss */
+.paddingT40 {
+  padding-top: 40px;
+}
+
+/* line 110, main.scss */
+.paddingT50 {
+  padding-top: 50px;
+}
+
+/* line 111, main.scss */
+.paddingB30 {
+  padding-bottom: 30px;
+}
+
+/* line 112, main.scss */
+.paddingB40 {
+  padding-bottom: 40px;
+}
+
+/* line 115, main.scss */
+.fullPage {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 117, main.scss */
+.none {
+  display: none;
+}
+
+/* line 118, main.scss */
+.block {
+  display: block;
+  overflow: hidden;
+}
+
+/* line 119, main.scss */
+.hide-desk {
+  display: none;
+}
+
+/* line 120, main.scss */
+.lightBlue {
+  background: #ecf4f8;
+}
+
+/* line 121, main.scss */
+.lightGrey {
+  background: #eff1f1;
+}
+
+/* line 122, main.scss */
+.boldText14 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* line 123, main.scss */
+.blueText {
+  color: #4f6b86;
+}
+
+/* line 124, main.scss */
+.text12 {
+  font-size: 13px;
+}
+
+/* line 126, main.scss */
+.table thead > tr > th {
+  border-bottom: 1px solid #ddd;
+}
+
+/*--- All Bttn Css ---*/
+/* line 129, main.scss */
+.Bluebttn, .contour.contact .contourNavigation input, .contour.contact .contourNavigation button {
+  background: #1e4164;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 12px 25px;
+  color: #FFF;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0px;
+  outline: none;
+}
+
+/* line 133, main.scss */
+.Bluebttn:hover, .contour.contact .contourNavigation input:hover, .contour.contact .contourNavigation button:hover {
+  background: #165594;
+  color: #fff;
+}
+
+/* line 134, main.scss */
+.Bluebttn:focus, .contour.contact .contourNavigation input:focus, .contour.contact .contourNavigation button:focus {
+  background: #165594;
+  color: #fff;
+}
+
+/* line 136, main.scss */
+.Borderbttn {
+  background: #fff;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  padding: 15px 10px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 5px solid #949ca1;
+  outline: none;
+}
+
+/* line 140, main.scss */
+.Borderbttn:hover {
+  background: #949ca1;
+  color: #fff;
+  border: 5px solid #949ca1;
+}
+
+/* line 141, main.scss */
+.Borderbttn:focus {
+  background: #949ca1;
+  color: #fff;
+  border: 5px solid #949ca1;
+}
+
+/*--- End Css ---*/
+/*--- Top Hero Css ---*/
+/* line 146, main.scss */
+.innerHero {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+/* line 147, main.scss */
+img.dddemo {
+  height: auto;
+  max-width: 10000% !important;
+  max-height: 100%;
+  min-width: 100%;
+  width: auto;
+}
+
+/* line 148, main.scss */
+.innJumper {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 50%;
+  height: auto;
+  left: 25%;
+  right: 25%;
+  top: 30%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #FFF;
+}
+
+/* line 152, main.scss */
+.innJumper h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 153, main.scss */
+.innJumper h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+/*--- End Css ---*/
+/*--- Top Logo Css ---*/
+/* line 158, main.scss */
+header .topLogo {
+  text-align: left;
+  position: relative;
+}
+
+/* line 159, main.scss */
+header .topLogo .Bluebttn, header .topLogo .contour.contact .contourNavigation input, .contour.contact .contourNavigation header .topLogo input, header .topLogo .contour.contact .contourNavigation button, .contour.contact .contourNavigation header .topLogo button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  min-width: 190px;
+}
+
+/* line 160, main.scss */
+header .topLogo .Bluebttn .fa, header .topLogo .contour.contact .contourNavigation input .fa, .contour.contact .contourNavigation header .topLogo input .fa, header .topLogo .contour.contact .contourNavigation button .fa, .contour.contact .contourNavigation header .topLogo button .fa, header .topLogo .Bluebttn .visible-xs .header a::before, .visible-xs .header header .topLogo .Bluebttn a::before, header .topLogo .contour.contact .contourNavigation input .visible-xs .header a::before, .visible-xs .header header .topLogo .contour.contact .contourNavigation input a::before, .contour.contact .contourNavigation header .topLogo input .visible-xs .header a::before, .visible-xs .header .contour.contact .contourNavigation header .topLogo input a::before, header .topLogo .contour.contact .contourNavigation button .visible-xs .header a::before, .visible-xs .header header .topLogo .contour.contact .contourNavigation button a::before, .contour.contact .contourNavigation header .topLogo button .visible-xs .header a::before, .visible-xs .header .contour.contact .contourNavigation header .topLogo button a::before, header .topLogo .Bluebttn div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd header .topLogo .Bluebttn a.title::before, header .topLogo .contour.contact .contourNavigation input div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd header .topLogo .contour.contact .contourNavigation input a.title::before, .contour.contact .contourNavigation header .topLogo input div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd .contour.contact .contourNavigation header .topLogo input a.title::before, header .topLogo .contour.contact .contourNavigation button div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd header .topLogo .contour.contact .contourNavigation button a.title::before, .contour.contact .contourNavigation header .topLogo button div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd .contour.contact .contourNavigation header .topLogo button a.title::before, header .topLogo .Bluebttn .weatherStn div.going a::before, .weatherStn div.going header .topLogo .Bluebttn a::before, header .topLogo .contour.contact .contourNavigation input .weatherStn div.going a::before, .weatherStn div.going header .topLogo .contour.contact .contourNavigation input a::before, .contour.contact .contourNavigation header .topLogo input .weatherStn div.going a::before, .weatherStn div.going .contour.contact .contourNavigation header .topLogo input a::before, header .topLogo .contour.contact .contourNavigation button .weatherStn div.going a::before, .weatherStn div.going header .topLogo .contour.contact .contourNavigation button a::before, .contour.contact .contourNavigation header .topLogo button .weatherStn div.going a::before, .weatherStn div.going .contour.contact .contourNavigation header .topLogo button a::before {
+  margin-left: 10px;
+}
+
+/* line 162, main.scss */
+.hp-header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 163, main.scss */
+.hp-header header {
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 35px;
+}
+
+/* line 164, main.scss */
+.hp-header header .topLogo {
+  text-align: center;
+  position: relative;
+}
+
+/* line 165, main.scss */
+.hp-header .navbar-nav {
+  float: inherit;
+}
+
+/* line 167, main.scss */
+.ip-header .nav > li > a {
+  padding: 16px 20px;
+}
+
+/* line 168, main.scss */
+.ip-header .nav > li:first-child > a {
+  padding-left: 0px;
+}
+
+/* line 169, main.scss */
+.ip-header header .topLogo {
+  margin-bottom: 10px;
+}
+
+/* line 170, main.scss */
+.ip-header header .topLogo img {
+  max-width: 215px;
+}
+
+/*--- End Css ---*/
+/*--- Main Body Css ---*/
+/* line 176, main.scss */
+.IheadText24 {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  margin: 0 200px 50px;
+  font-weight: 300;
+}
+
+/* line 177, main.scss */
+.IheadText30 {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  margin: 0 100px 50px;
+  font-weight: 300;
+}
+
+/* line 178, main.scss */
+.cutPrice {
+  text-decoration: line-through;
+}
+
+/* line 180, main.scss */
+ul.listless {
+  margin: 0 auto 10px;
+}
+
+/* line 181, main.scss */
+ul.listless li {
+  width: 23.6%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0 1.4% 2% 0;
+}
+
+/* line 182, main.scss */
+ul.listless li:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+/* line 184, main.scss */
+ul.listlessBttn {
+  margin: 0 auto;
+}
+
+/* line 185, main.scss */
+ul.listlessBttn li {
+  width: 32%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0 1.6% 0 0;
+  overflow: hidden;
+}
+
+/* line 186, main.scss */
+ul.listlessBttn li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+/* line 188, main.scss */
+ul.regionsCol3 {
+  margin-bottom: 0px;
+}
+
+/* line 189, main.scss */
+ul.regionsCol3 li {
+  width: 32%;
+  margin: 0 1.6% 0 0;
+}
+
+/* line 190, main.scss */
+ul.regionsCol3 li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+/* line 192, main.scss */
+ul.regionsBttn {
+  margin: 0 6%;
+}
+
+/* line 193, main.scss */
+ul.regionsBttn li {
+  width: 30%;
+}
+
+/* line 194, main.scss */
+ul.regionsBttn .Bluebttn, ul.regionsBttn .contour.contact .contourNavigation input, .contour.contact .contourNavigation ul.regionsBttn input, ul.regionsBttn .contour.contact .contourNavigation button, .contour.contact .contourNavigation ul.regionsBttn button {
+  display: block;
+}
+
+/* line 196, main.scss */
+.featureList {
+  text-align: center;
+}
+
+/* line 197, main.scss */
+.featureList .listless .detail {
+  min-height: 130px;
+  background: #eff1f1;
+  padding: 16px 10px 10px;
+}
+
+/* line 198, main.scss */
+.featureList .listless .Bluebttn, .featureList .listless .contour.contact .contourNavigation input, .contour.contact .contourNavigation .featureList .listless input, .featureList .listless .contour.contact .contourNavigation button, .contour.contact .contourNavigation .featureList .listless button {
+  width: 100%;
+}
+
+/* line 199, main.scss */
+.featureList .listless h6 {
+  margin-bottom: 10px;
+}
+
+/* line 201, main.scss */
+.headIntro {
+  padding-left: 110px;
+  padding-right: 110px;
+  text-align: center;
+}
+
+/* line 202, main.scss */
+.headIntro h2 {
+  line-height: 30px;
+}
+
+/* line 205, main.scss */
+.latest-feed li:last-child {
+  margin-bottom: 0px;
+}
+
+/*.latest-feed li p{line-height:22px;}*/
+/* line 207, main.scss */
+.date {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* line 209, main.scss */
+.latest-feed li .twitter-link {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 210, main.scss */
+.latest-feed li .twitter-link .fa, .latest-feed li .twitter-link .visible-xs .header a::before, .visible-xs .header .latest-feed li .twitter-link a::before, .latest-feed div.mainNav li.l0.dd .twitter-link a.title::before, div.mainNav .latest-feed li.l0.dd .twitter-link a.title::before, .latest-feed li .twitter-link .weatherStn div.going a::before, .weatherStn div.going .latest-feed li .twitter-link a::before {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* line 212, main.scss */
+.quote-img {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -25px;
+  z-index: 9;
+}
+
+/* line 213, main.scss */
+.sponsorIntro {
+  padding: 0 50px 45px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 217, main.scss */
+.sponsorIntro::after {
+  background-color: #949ca1;
+  bottom: -2px;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+/* line 221, main.scss */
+.sponsorName {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 223, main.scss */
+.bulletList {
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+/* line 224, main.scss */
+.bulletList li {
+  background: url(../img/ui/bullet.png) 0 8px no-repeat;
+  padding: 0 0 0 15px;
+  margin: 0 0 10px;
+}
+
+/* line 226, main.scss */
+.boldCol {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 40px 0px 0px;
+}
+
+/* line 227, main.scss */
+.boldCol p {
+  margin-bottom: 5px;
+  line-height: normal;
+}
+
+/* line 229, main.scss */
+.L-col {
+  padding: 0 40px;
+}
+
+/* line 230, main.scss */
+.R-col {
+  padding: 0 30px;
+}
+
+/* line 231, main.scss */
+.R-col h2 {
+  margin-bottom: 20px;
+}
+
+/* line 232, main.scss */
+.R-col h6 {
+  margin-bottom: 10px;
+}
+
+/* line 233, main.scss */
+.R-col .bulletList {
+  margin-left: 15px;
+}
+
+/* line 235, main.scss */
+.subnav-grid {
+  text-align: center;
+}
+
+/* line 236, main.scss */
+.subnav-grid ul li {
+  display: inline-block;
+  margin: 0 25px;
+  text-transform: uppercase;
+}
+
+/* line 237, main.scss */
+.subnav-grid ul li a {
+  display: block;
+  border-bottom: 4px solid #eff1f1;
+  padding: 40px 0 30px;
+}
+
+/* line 238, main.scss */
+.subnav-grid ul li a:hover {
+  border-bottom: 4px solid #1e4164;
+  display: block;
+  color: #1e4164;
+}
+
+/* line 239, main.scss */
+.subnav-grid ul li a:focus {
+  border-bottom: 4px solid #1e4164;
+  display: block;
+  color: #1e4164;
+}
+
+/* line 240, main.scss */
+.subnav-grid ul .active a {
+  border-bottom: 4px solid #1e4164;
+  display: block;
+  color: #1e4164;
+}
+
+/* line 242, main.scss */
+.tc-grid {
+  vertical-align: top;
+}
+
+/* line 243, main.scss */
+.tc-grid li {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* line 244, main.scss */
+.tc-grid li .Bluebttn, .tc-grid li .contour.contact .contourNavigation input, .contour.contact .contourNavigation .tc-grid li input, .tc-grid li .contour.contact .contourNavigation button, .contour.contact .contourNavigation .tc-grid li button {
+  width: 100%;
+}
+
+/* line 246, main.scss */
+.tc-grid li .tc-col {
+  border: 1px solid #949ca1;
+}
+
+/* line 247, main.scss */
+.tc-grid li .tc-col span {
+  display: block;
+}
+
+/* line 248, main.scss */
+.tc-grid li .tc-head {
+  background: #949ca1;
+  color: #FFF;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 249, main.scss */
+.tc-grid li .tc-head .fa, .tc-grid li .tc-head .visible-xs .header a::before, .visible-xs .header .tc-grid li .tc-head a::before, .tc-grid div.mainNav li.l0.dd .tc-head a.title::before, div.mainNav .tc-grid li.l0.dd .tc-head a.title::before, .tc-grid li .tc-head .weatherStn div.going a::before, .weatherStn div.going .tc-grid li .tc-head a::before {
+  font-size: 18px;
+  float: right;
+}
+
+/* line 250, main.scss */
+.tc-grid li .tc-detail {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 252, main.scss */
+.tc-grid li .Borderbttn {
+  border-width: 1px;
+}
+
+/* line 253, main.scss */
+.tc-grid li .Borderbttn .fa, .tc-grid li .Borderbttn .visible-xs .header a::before, .visible-xs .header .tc-grid li .Borderbttn a::before, .tc-grid div.mainNav li.l0.dd .Borderbttn a.title::before, div.mainNav .tc-grid li.l0.dd .Borderbttn a.title::before, .tc-grid li .Borderbttn .weatherStn div.going a::before, .weatherStn div.going .tc-grid li .Borderbttn a::before {
+  font-size: 18px;
+  float: right;
+}
+
+/* line 255, main.scss */
+.raceCalendar {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+/* line 256, main.scss */
+.raceCalendar h3 {
+  font-size: 22px;
+}
+
+/* line 257, main.scss */
+.raceCalendar h6 {
+  text-transform: inherit;
+}
+
+/* line 258, main.scss */
+.raceCalendar li {
+  background: #fff;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 259, main.scss */
+.raceCalendar li .img-col {
+  padding-left: 0px;
+}
+
+/* line 260, main.scss */
+.raceCalendar li .raceDetails {
+  padding: 20px 90px 45px 10px;
+  position: relative;
+  text-align: left;
+}
+
+/* line 261, main.scss */
+.raceCalendar li .raceDetails p {
+  margin-bottom: 30px;
+}
+
+/* line 262, main.scss */
+.raceCalendar li .Bluebttn, .raceCalendar li .contour.contact .contourNavigation input, .contour.contact .contourNavigation .raceCalendar li input, .raceCalendar li .contour.contact .contourNavigation button, .contour.contact .contourNavigation .raceCalendar li button {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+/* line 264, main.scss */
+.mlfix {
+  margin-left: 5%;
+}
+
+/* line 265, main.scss */
+.mlfix .form-col {
+  background: #eff1f1;
+  padding: 30px 50px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+/* line 266, main.scss */
+.mlfix .form-col .form-group {
+  margin-bottom: 10px;
+}
+
+/* line 267, main.scss */
+.mlfix .form-col .form-group label {
+  width: 100%;
+}
+
+/* line 268, main.scss */
+.mlfix .form-col .form-group label span {
+  color: #F00;
+}
+
+/* line 269, main.scss */
+.mlfix .form-col .form-group label input[type="checkbox"] {
+  margin: 0px 5px 0 0;
+}
+
+/* line 270, main.scss */
+.mlfix .form-col .form-group input[type="text"] {
+  width: 100%;
+  border: 1px solid #CCC;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+/* line 274, main.scss */
+.mlfix .form-col .form-group .redText {
+  color: #F00;
+}
+
+/* line 275, main.scss */
+.mlfix h6 {
+  margin-bottom: 20px;
+}
+
+/* line 279, main.scss */
+.faqListless {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 280, main.scss */
+.faqListless .panel {
+  box-shadow: inherit;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+
+/* line 281, main.scss */
+.faqListless .panel .accordion-toggle {
+  font-size: 14px;
+  color: #ac1480;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+/* line 282, main.scss */
+.faqListless .panel .accordion-toggle .fa, .faqListless .panel .accordion-toggle .visible-xs .header a::before, .visible-xs .header .faqListless .panel .accordion-toggle a::before, .faqListless .panel .accordion-toggle div.mainNav li.l0.dd a.title::before, div.mainNav li.l0.dd .faqListless .panel .accordion-toggle a.title::before, .faqListless .panel .accordion-toggle .weatherStn div.going a::before, .weatherStn div.going .faqListless .panel .accordion-toggle a::before {
+  font-size: 24px;
+  color: #1e4164;
+  width: 10%;
+  float: right;
+  text-align: right;
+}
+
+/* line 283, main.scss */
+.faqListless .panel .accordion-toggle h2 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #1e4164;
+  font-weight: 700;
+  line-height: 24px;
+  width: 90%;
+  float: left;
+}
+
+/* line 284, main.scss */
+.faqListless .panel .panel-body {
+  padding: 10px 30px 0;
+}
+
+/* line 285, main.scss */
+.faqListless .faqLeft {
+  width: 5%;
+  float: left;
+  font-weight: 700;
+}
+
+/* line 286, main.scss */
+.faqListless .faqRight {
+  width: 95%;
+  float: left;
+}
+
+/* line 289, main.scss */
+.latestNews {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+/* line 290, main.scss */
+.latestNews h6 {
+  text-transform: inherit;
+  margin-bottom: 8px;
+}
+
+/* line 291, main.scss */
+.latestNews h5 {
+  margin-bottom: 8px;
+}
+
+/* line 292, main.scss */
+.latestNews li {
+  background: #fff;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+/* line 293, main.scss */
+.latestNews li .img-col {
+  padding-left: 0px;
+}
+
+/* line 294, main.scss */
+.latestNews li .raceDetails {
+  position: relative;
+}
+
+/* line 296, main.scss */
+.packageCol .boldCol {
+  padding-top: 0px;
+}
+
+/* line 297, main.scss */
+.packageCol p {
+  margin-bottom: 5px;
+}
+
+/*--- Footer Css ---*/
+/* line 301, main.scss */
+footer {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background: #333333;
+}
+
+/* line 302, main.scss */
+footer .newsCol {
+  background: #272727;
+  padding: 15px 0;
+  text-align: center;
+  color: #FFF;
+}
+
+/* line 303, main.scss */
+footer .newsCol .form-group {
+  margin-left: 5px;
+}
+
+/* line 304, main.scss */
+footer .newsCol .form-group label {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 305, main.scss */
+footer .newsCol .form-control {
+  border-radius: 0px;
+  border: 0px;
+  min-height: 45px;
+  min-width: 252px;
+}
+
+/* line 306, main.scss */
+footer .newsCol .btn-default {
+  background-image: inherit;
+  background: #1e4164;
+  text-transform: uppercase;
+  border-radius: 0px;
+  margin-left: -4px;
+  border: 0px;
+  text-shadow: inherit;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+  height: 45px;
+  min-width: 140px;
+}
+
+/* line 310, main.scss */
+footer .newsCol .form-control:-moz-placeholder {
+  color: #000;
+  font-style: italic;
+}
+
+/* line 311, main.scss */
+footer .newsCol .form-control::-moz-placeholder {
+  color: #000;
+  font-style: italic;
+}
+
+/* line 312, main.scss */
+footer .newsCol .form-control:-ms-input-placeholder {
+  color: #000;
+  font-style: italic;
+}
+
+/* line 313, main.scss */
+footer .newsCol .form-control::-webkit-input-placeholder {
+  color: #000;
+  font-style: italic;
+}
+
+/* line 315, main.scss */
+footer .footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #949ca1;
+}
+
+/* line 317, main.scss */
+footer .footer .fLink {
+  display: block;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+/* line 318, main.scss */
+footer .footer .fLink a {
+  color: #949ca1;
+  margin: 0 5px;
+}
+
+/* line 319, main.scss */
+footer .footer .fLink a:hover {
+  color: #fff;
+}
+
+/* line 322, main.scss */
+footer .footer .social li {
+  margin: 0 1px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+/* line 324, main.scss */
+footer .footer .fLogo {
+  background: url(../img/ui/footer-underlineBG.gif) left center repeat-x;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* line 329, main.scss */
+footer .footer .fSublink {
+  display: block;
+  width: auto;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* line 330, main.scss */
+footer .footer .fSublink p {
+  margin-bottom: 5px;
+  line-height: normal;
+}
+
+/* line 331, main.scss */
+footer .footer .fSublink a {
+  color: #949ca1;
+  margin: 0 5px;
+}
+
+/* line 332, main.scss */
+footer .footer .fSublink a:hover {
+  color: #fff;
+}
+
+/*--- End Footer Css ---*
+
+/*--- Tablet View ---*/
+@media screen and (max-width: 992px) {
+  /* line 338, main.scss */
+  .IheadText24 {
+    margin: 0 100px 50px;
+  }
+
+  /* line 340, main.scss */
+  .ip-header header {
+    padding-bottom: 35px;
+  }
+
+  /* line 341, main.scss */
+  .ip-header header .topLogo {
+    text-align: center;
+  }
+
+  /* line 342, main.scss */
+  .ip-header header .topLogo img {
+    max-width: 100%;
+  }
+
+  /* line 343, main.scss */
+  .ip-header header .topLogo {
+    margin-bottom: 0px;
+  }
+
+  /* line 345, main.scss */
+  ul.listlessBttn li {
+    width: 48%;
+    margin: 0 1% 20px;
+  }
+
+  /* line 346, main.scss */
+  ul.listlessBttn li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  /* line 348, main.scss */
+  ul.regionsCol3 li {
+    width: 48%;
+    margin: 0 2% 2% 0;
+  }
+
+  /* line 349, main.scss */
+  ul.regionsCol3 li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  /* line 351, main.scss */
+  ul.listless li {
+    width: 48%;
+    margin: 0 2% 2% 0;
+  }
+
+  /* line 352, main.scss */
+  ul.listless li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  /* line 354, main.scss */
+  .mm-list, .mm-list > li h3 {
+    font-size: 14px;
+    margin: 10px 0 5px 10px;
+  }
+
+  /* line 355, main.scss */
+  .mm-list, .mm-list > li h6 {
+    margin: 10px 0 10px 10px;
+  }
+
+  /* line 357, main.scss */
+  .raceCalendar li .raceDetails {
+    padding: 20px 20px 45px 10px;
+    position: relative;
+  }
+
+  /* line 359, main.scss */
+  .footer-logo ul {
+    padding: 25px 0;
+  }
+
+  /* line 360, main.scss */
+  .footer-logo li {
+    margin: 10px 0;
+    width: 25%;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 855px) {
+  /* line 365, main.scss */
+  footer .newsCol .btn-default {
+    min-width: inherit;
+  }
+
+  /* line 366, main.scss */
+  footer .newsCol .form-group {
+    margin-left: 0px;
+  }
+}
+/*--- Mobile View ---*/
+@media screen and (max-width: 768px) {
+  /* line 371, main.scss */
+  .IheadText24 {
+    font-size: 20px;
+    margin: 0 0px 50px;
+  }
+
+  /* line 372, main.scss */
+  .paddingTB50 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  /* line 374, main.scss */
+  .L-col {
+    padding: 10px 15px;
+  }
+
+  /* line 375, main.scss */
+  .L-col img {
+    width: 100%;
+  }
+
+  /* line 376, main.scss */
+  .R-col {
+    padding: 10px 15px;
+  }
+
+  /* line 378, main.scss */
+  .boldCol {
+    padding-top: 10px;
+  }
+
+  /* line 380, main.scss */
+  .date {
+    margin-bottom: 10px;
+  }
+
+  /* line 382, main.scss */
+  .headIntro {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 383, main.scss */
+  .headIntro h2 {
+    margin-bottom: 20px;
+  }
+
+  /* line 385, main.scss */
+  .hide-mob {
+    display: block;
+  }
+
+  /* line 387, main.scss */
+  .latest-feed {
+    margin-bottom: 20px;
+  }
+
+  /* line 389, main.scss */
+  header {
+    padding-bottom: 20px;
+  }
+
+  /* line 390, main.scss */
+  header .topLogo .Bluebttn, header .topLogo .contour.contact .contourNavigation input, .contour.contact .contourNavigation header .topLogo input, header .topLogo .contour.contact .contourNavigation button, .contour.contact .contourNavigation header .topLogo button {
+    position: relative;
+    display: block;
+    top: inherit;
+    right: inherit;
+    margin-top: 20px;
+  }
+
+  /* line 392, main.scss */
+  ul.regionsBttn {
+    margin: 0;
+  }
+
+  /* line 394, main.scss */
+  .innJumper {
+    width: 70%;
+    height: auto;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+  }
+
+  /* line 396, main.scss */
+  .subnav-grid ul li {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  /* line 397, main.scss */
+  .subnav-grid ul li a {
+    padding: 25px 0 25px;
+  }
+
+  /* line 399, main.scss */
+  .tc-grid {
+    margin-top: 20px;
+  }
+
+  /* line 401, main.scss */
+  .raceCalendar li .img-col {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  /* line 402, main.scss */
+  .raceCalendar li .raceDetails {
+    padding: 20px 15px 45px;
+  }
+
+  /* line 403, main.scss */
+  .raceCalendar li .Bluebttn, .raceCalendar li .contour.contact .contourNavigation input, .contour.contact .contourNavigation .raceCalendar li input, .raceCalendar li .contour.contact .contourNavigation button, .contour.contact .contourNavigation .raceCalendar li button {
+    width: 100%;
+  }
+
+  /* line 405, main.scss */
+  .mlfix {
+    margin-left: 0;
+  }
+
+  /* line 406, main.scss */
+  .mlfix .form-col {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 408, main.scss */
+  .latestNews li .img-col {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+
+  /*.latestNews li .raceDetails{padding:0;}*/
+  /* line 411, main.scss */
+  .faqListless .faqLeft {
+    width: 10%;
+  }
+
+  /* line 412, main.scss */
+  .faqListless .faqRight {
+    width: 90%;
+  }
+
+  /* line 414, main.scss */
+  .tab-pane .paddingT50 {
+    padding-top: 20px;
+  }
+
+  /* line 416, main.scss */
+  footer .newsCol .btn-default {
+    min-width: 140px;
+  }
+
+  /* line 418, main.scss */
+  footer .newsCol .form-group {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 424, main.scss */
+  .hp-header header {
+    padding-bottom: 25px;
+  }
+
+  /* line 425, main.scss */
+  .ip-header header {
+    padding-bottom: 25px;
+  }
+
+  /* line 427, main.scss */
+  ul.listlessBttn li {
+    width: 100%;
+    margin: 0 0 1% 0;
+  }
+
+  /* line 428, main.scss */
+  ul.regionsCol3 li {
+    width: 100%;
+    margin: 0 0 5% 0;
+  }
+
+  /* line 429, main.scss */
+  ul.listless li {
+    width: 100%;
+    margin: 0 0 5% 0;
+  }
+
+  /* line 432, main.scss */
+  .sponsorIntro {
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 433, main.scss */
+  .sponsorName {
+    margin-bottom: 20px;
+  }
+
+  /* line 435, main.scss */
+  .paddingTB40 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  /* line 436, main.scss */
+  .padding1 {
+    padding-bottom: 20px;
+    padding-top: 65px;
+  }
+
+  /* line 438, main.scss */
+  .innJumper {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+  /* line 439, main.scss */
+  .innJumper h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  /* line 440, main.scss */
+  .innJumper h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* line 442, main.scss */
+  .latestNews li .img-col {
+    text-align: center;
+  }
+
+  /* line 443, main.scss */
+  .latestNews li .raceDetails {
+    text-align: center;
+  }
+
+  /* line 444, main.scss */
+  .raceCalendar li .raceDetails {
+    text-align: center;
+  }
+
+  /* line 446, main.scss */
+  .IheadText30 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+}
+/* Rad */
+/*
+
+Radiator Digital
+http://www.radiatordigital.com
+
+*/
+/*
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("icons/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("icons/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("icons/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("icons/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("icons/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("icons/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 4, icons/_core.scss */
+.fa, .visible-xs .header a::before, div.mainNav li.l0.dd a.title::before, .weatherStn div.going a::before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, icons/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 10, icons/_larger.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 11, icons/_larger.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 12, icons/_larger.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 13, icons/_larger.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 3, icons/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center;
+}
+
+/* line 4, icons/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none;
+}
+/* line 8, icons/_list.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 10, icons/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center;
+}
+/* line 16, icons/_list.scss */
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
+
+/* line 4, icons/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+
+/* line 10, icons/_bordered-pulled.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 11, icons/_bordered-pulled.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 14, icons/_bordered-pulled.scss */
+.fa.pull-left, .visible-xs .header a.pull-left::before, div.mainNav li.l0.dd a.pull-left.title::before, .weatherStn div.going a.pull-left::before {
+  margin-right: .3em;
+}
+/* line 15, icons/_bordered-pulled.scss */
+.fa.pull-right, .visible-xs .header a.pull-right::before, div.mainNav li.l0.dd a.pull-right.title::before, .weatherStn div.going a.pull-right::before {
+  margin-left: .3em;
+}
+
+/* line 4, icons/_animated.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 9, icons/_animated.scss */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  /* line 15, icons/_animated.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 19, icons/_animated.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  /* line 26, icons/_animated.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 30, icons/_animated.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 4, icons/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 5, icons/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 6, icons/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 8, icons/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 9, icons/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 18, icons/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 4, icons/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 12, icons/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 18, icons/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 19, icons/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 20, icons/_stacked.scss */
+.fa-inverse {
+  color: white;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 4, icons/_icons.scss */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 5, icons/_icons.scss */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 6, icons/_icons.scss */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 7, icons/_icons.scss */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 8, icons/_icons.scss */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 9, icons/_icons.scss */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 10, icons/_icons.scss */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 11, icons/_icons.scss */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 12, icons/_icons.scss */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 13, icons/_icons.scss */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 14, icons/_icons.scss */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 15, icons/_icons.scss */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 16, icons/_icons.scss */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 19, icons/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 20, icons/_icons.scss */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 21, icons/_icons.scss */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 22, icons/_icons.scss */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 23, icons/_icons.scss */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 25, icons/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: "\f013";
+}
+
+/* line 26, icons/_icons.scss */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 27, icons/_icons.scss */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 28, icons/_icons.scss */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 29, icons/_icons.scss */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 30, icons/_icons.scss */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 31, icons/_icons.scss */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 32, icons/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 33, icons/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 34, icons/_icons.scss */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 35, icons/_icons.scss */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 37, icons/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 38, icons/_icons.scss */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 39, icons/_icons.scss */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 40, icons/_icons.scss */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 41, icons/_icons.scss */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 42, icons/_icons.scss */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 43, icons/_icons.scss */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 44, icons/_icons.scss */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 45, icons/_icons.scss */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 46, icons/_icons.scss */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 47, icons/_icons.scss */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 48, icons/_icons.scss */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 49, icons/_icons.scss */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 50, icons/_icons.scss */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 51, icons/_icons.scss */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 52, icons/_icons.scss */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 53, icons/_icons.scss */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 54, icons/_icons.scss */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 55, icons/_icons.scss */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 56, icons/_icons.scss */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 57, icons/_icons.scss */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 58, icons/_icons.scss */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 59, icons/_icons.scss */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 60, icons/_icons.scss */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 61, icons/_icons.scss */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 62, icons/_icons.scss */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 63, icons/_icons.scss */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 65, icons/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 66, icons/_icons.scss */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 67, icons/_icons.scss */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 70, icons/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 71, icons/_icons.scss */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 72, icons/_icons.scss */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 73, icons/_icons.scss */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 74, icons/_icons.scss */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 76, icons/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 77, icons/_icons.scss */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 78, icons/_icons.scss */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 79, icons/_icons.scss */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 80, icons/_icons.scss */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 81, icons/_icons.scss */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 82, icons/_icons.scss */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 83, icons/_icons.scss */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 84, icons/_icons.scss */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 85, icons/_icons.scss */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 86, icons/_icons.scss */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 87, icons/_icons.scss */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 88, icons/_icons.scss */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 89, icons/_icons.scss */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 90, icons/_icons.scss */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 91, icons/_icons.scss */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 92, icons/_icons.scss */
+.fa-plus-circle:before, ul.faqListless span.fa-plus-circle.fa-minus-circle:before {
+  content: "\f055";
+}
+
+/* line 93, icons/_icons.scss */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 94, icons/_icons.scss */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 95, icons/_icons.scss */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 96, icons/_icons.scss */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 97, icons/_icons.scss */
+.fa-info-circle:before, .weatherStn div.going a:before {
+  content: "\f05a";
+}
+
+/* line 98, icons/_icons.scss */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 99, icons/_icons.scss */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 100, icons/_icons.scss */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 101, icons/_icons.scss */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 102, icons/_icons.scss */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 103, icons/_icons.scss */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 104, icons/_icons.scss */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 105, icons/_icons.scss */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 107, icons/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "\f064";
+}
+
+/* line 108, icons/_icons.scss */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 109, icons/_icons.scss */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 110, icons/_icons.scss */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 111, icons/_icons.scss */
+.fa-minus:before, .tc-grid.open .more i:before {
+  content: "\f068";
+}
+
+/* line 112, icons/_icons.scss */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 113, icons/_icons.scss */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 114, icons/_icons.scss */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 115, icons/_icons.scss */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 116, icons/_icons.scss */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 117, icons/_icons.scss */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 118, icons/_icons.scss */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 120, icons/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 121, icons/_icons.scss */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 122, icons/_icons.scss */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 123, icons/_icons.scss */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 124, icons/_icons.scss */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 125, icons/_icons.scss */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 126, icons/_icons.scss */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 127, icons/_icons.scss */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 128, icons/_icons.scss */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 129, icons/_icons.scss */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 130, icons/_icons.scss */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 131, icons/_icons.scss */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 132, icons/_icons.scss */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 133, icons/_icons.scss */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 135, icons/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 136, icons/_icons.scss */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 137, icons/_icons.scss */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 138, icons/_icons.scss */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 139, icons/_icons.scss */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 141, icons/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 142, icons/_icons.scss */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 143, icons/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 144, icons/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 145, icons/_icons.scss */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 146, icons/_icons.scss */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 147, icons/_icons.scss */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 148, icons/_icons.scss */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 149, icons/_icons.scss */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 150, icons/_icons.scss */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 151, icons/_icons.scss */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 152, icons/_icons.scss */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 153, icons/_icons.scss */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 154, icons/_icons.scss */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 155, icons/_icons.scss */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 156, icons/_icons.scss */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 157, icons/_icons.scss */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 158, icons/_icons.scss */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 159, icons/_icons.scss */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 160, icons/_icons.scss */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 162, icons/_icons.scss */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 163, icons/_icons.scss */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 164, icons/_icons.scss */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 165, icons/_icons.scss */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 166, icons/_icons.scss */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 167, icons/_icons.scss */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 168, icons/_icons.scss */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 169, icons/_icons.scss */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 170, icons/_icons.scss */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 171, icons/_icons.scss */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 172, icons/_icons.scss */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 173, icons/_icons.scss */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 174, icons/_icons.scss */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 175, icons/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 176, icons/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 177, icons/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 178, icons/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 179, icons/_icons.scss */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 180, icons/_icons.scss */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 181, icons/_icons.scss */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 182, icons/_icons.scss */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 183, icons/_icons.scss */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 184, icons/_icons.scss */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 186, icons/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 188, icons/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 189, icons/_icons.scss */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 190, icons/_icons.scss */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 192, icons/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 194, icons/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 195, icons/_icons.scss */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 197, icons/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 198, icons/_icons.scss */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 201, icons/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before,
+.visible-xs .header a:before {
+  content: "\f0c9";
+}
+
+/* line 202, icons/_icons.scss */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 203, icons/_icons.scss */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 204, icons/_icons.scss */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 205, icons/_icons.scss */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 206, icons/_icons.scss */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 207, icons/_icons.scss */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 208, icons/_icons.scss */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 209, icons/_icons.scss */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 210, icons/_icons.scss */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 211, icons/_icons.scss */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 212, icons/_icons.scss */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 213, icons/_icons.scss */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 214, icons/_icons.scss */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 215, icons/_icons.scss */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 216, icons/_icons.scss */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 217, icons/_icons.scss */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 218, icons/_icons.scss */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 220, icons/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 222, icons/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 224, icons/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 225, icons/_icons.scss */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 226, icons/_icons.scss */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 228, icons/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 230, icons/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 232, icons/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 233, icons/_icons.scss */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 234, icons/_icons.scss */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 236, icons/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 237, icons/_icons.scss */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 238, icons/_icons.scss */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 240, icons/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 241, icons/_icons.scss */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 242, icons/_icons.scss */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 243, icons/_icons.scss */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 244, icons/_icons.scss */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 245, icons/_icons.scss */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 246, icons/_icons.scss */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 247, icons/_icons.scss */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 248, icons/_icons.scss */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 249, icons/_icons.scss */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 250, icons/_icons.scss */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 251, icons/_icons.scss */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 252, icons/_icons.scss */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 253, icons/_icons.scss */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 254, icons/_icons.scss */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 255, icons/_icons.scss */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 256, icons/_icons.scss */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 257, icons/_icons.scss */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 258, icons/_icons.scss */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 259, icons/_icons.scss */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 260, icons/_icons.scss */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 261, icons/_icons.scss */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 262, icons/_icons.scss */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 263, icons/_icons.scss */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 264, icons/_icons.scss */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 265, icons/_icons.scss */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 266, icons/_icons.scss */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 267, icons/_icons.scss */
+.fa-angle-down:before, div.mainNav li.l0.dd a.title:before {
+  content: "\f107";
+}
+
+/* line 268, icons/_icons.scss */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 269, icons/_icons.scss */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 270, icons/_icons.scss */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 272, icons/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 273, icons/_icons.scss */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 274, icons/_icons.scss */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 275, icons/_icons.scss */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 276, icons/_icons.scss */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 277, icons/_icons.scss */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 279, icons/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "\f112";
+}
+
+/* line 280, icons/_icons.scss */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 281, icons/_icons.scss */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 282, icons/_icons.scss */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 283, icons/_icons.scss */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 284, icons/_icons.scss */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 285, icons/_icons.scss */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 286, icons/_icons.scss */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 287, icons/_icons.scss */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 288, icons/_icons.scss */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 289, icons/_icons.scss */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 290, icons/_icons.scss */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 291, icons/_icons.scss */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 293, icons/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 296, icons/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 297, icons/_icons.scss */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 298, icons/_icons.scss */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 299, icons/_icons.scss */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 301, icons/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 302, icons/_icons.scss */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 303, icons/_icons.scss */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 304, icons/_icons.scss */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 305, icons/_icons.scss */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 306, icons/_icons.scss */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 307, icons/_icons.scss */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 308, icons/_icons.scss */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 309, icons/_icons.scss */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 310, icons/_icons.scss */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 311, icons/_icons.scss */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 312, icons/_icons.scss */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 313, icons/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 314, icons/_icons.scss */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 315, icons/_icons.scss */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 316, icons/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 317, icons/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 318, icons/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 319, icons/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 320, icons/_icons.scss */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 321, icons/_icons.scss */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 322, icons/_icons.scss */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 323, icons/_icons.scss */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 324, icons/_icons.scss */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 325, icons/_icons.scss */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 326, icons/_icons.scss */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 327, icons/_icons.scss */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 328, icons/_icons.scss */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 329, icons/_icons.scss */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 330, icons/_icons.scss */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 331, icons/_icons.scss */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 332, icons/_icons.scss */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 333, icons/_icons.scss */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 334, icons/_icons.scss */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 335, icons/_icons.scss */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 336, icons/_icons.scss */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 337, icons/_icons.scss */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 338, icons/_icons.scss */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 340, icons/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 342, icons/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 344, icons/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 346, icons/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+
+/* line 347, icons/_icons.scss */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 349, icons/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+
+/* line 351, icons/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "\f156";
+}
+
+/* line 355, icons/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 358, icons/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
+
+/* line 360, icons/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: "\f159";
+}
+
+/* line 362, icons/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 363, icons/_icons.scss */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 364, icons/_icons.scss */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 365, icons/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 366, icons/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 367, icons/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 368, icons/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 369, icons/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 370, icons/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 371, icons/_icons.scss */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 372, icons/_icons.scss */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 373, icons/_icons.scss */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 374, icons/_icons.scss */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 375, icons/_icons.scss */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 376, icons/_icons.scss */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 377, icons/_icons.scss */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 378, icons/_icons.scss */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 379, icons/_icons.scss */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 380, icons/_icons.scss */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 381, icons/_icons.scss */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 382, icons/_icons.scss */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 383, icons/_icons.scss */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 384, icons/_icons.scss */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 385, icons/_icons.scss */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 386, icons/_icons.scss */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 387, icons/_icons.scss */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 388, icons/_icons.scss */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 389, icons/_icons.scss */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 390, icons/_icons.scss */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 391, icons/_icons.scss */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 392, icons/_icons.scss */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 393, icons/_icons.scss */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 394, icons/_icons.scss */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 395, icons/_icons.scss */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 396, icons/_icons.scss */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 397, icons/_icons.scss */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 398, icons/_icons.scss */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 399, icons/_icons.scss */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 400, icons/_icons.scss */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 402, icons/_icons.scss */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "\f184";
+}
+
+/* line 403, icons/_icons.scss */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 404, icons/_icons.scss */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 405, icons/_icons.scss */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 406, icons/_icons.scss */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 407, icons/_icons.scss */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 408, icons/_icons.scss */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 409, icons/_icons.scss */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 410, icons/_icons.scss */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 411, icons/_icons.scss */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 412, icons/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 413, icons/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 415, icons/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 416, icons/_icons.scss */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 417, icons/_icons.scss */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 418, icons/_icons.scss */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 420, icons/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
+
+/* line 421, icons/_icons.scss */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 422, icons/_icons.scss */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 423, icons/_icons.scss */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 424, icons/_icons.scss */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 425, icons/_icons.scss */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 426, icons/_icons.scss */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 429, icons/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+
+/* line 431, icons/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 432, icons/_icons.scss */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 433, icons/_icons.scss */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 434, icons/_icons.scss */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 435, icons/_icons.scss */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 436, icons/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 437, icons/_icons.scss */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 438, icons/_icons.scss */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 439, icons/_icons.scss */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 440, icons/_icons.scss */
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 441, icons/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 442, icons/_icons.scss */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 443, icons/_icons.scss */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 444, icons/_icons.scss */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 445, icons/_icons.scss */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 446, icons/_icons.scss */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 447, icons/_icons.scss */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 448, icons/_icons.scss */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 449, icons/_icons.scss */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 450, icons/_icons.scss */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 451, icons/_icons.scss */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 452, icons/_icons.scss */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 453, icons/_icons.scss */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 454, icons/_icons.scss */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 455, icons/_icons.scss */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 456, icons/_icons.scss */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 458, icons/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 460, icons/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 461, icons/_icons.scss */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 462, icons/_icons.scss */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 463, icons/_icons.scss */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 464, icons/_icons.scss */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 465, icons/_icons.scss */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 466, icons/_icons.scss */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 467, icons/_icons.scss */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 468, icons/_icons.scss */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 469, icons/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 472, icons/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 474, icons/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 476, icons/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 478, icons/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 479, icons/_icons.scss */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 480, icons/_icons.scss */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 481, icons/_icons.scss */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 482, icons/_icons.scss */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 487, icons/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 488, icons/_icons.scss */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 490, icons/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 492, icons/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 493, icons/_icons.scss */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 494, icons/_icons.scss */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 495, icons/_icons.scss */
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 496, icons/_icons.scss */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 497, icons/_icons.scss */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 499, icons/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 501, icons/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 503, icons/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 504, icons/_icons.scss */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 506, icons/_icons.scss */
+.fa-genderless:before,
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 507, icons/_icons.scss */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 508, icons/_icons.scss */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 509, icons/_icons.scss */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 510, icons/_icons.scss */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 511, icons/_icons.scss */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 512, icons/_icons.scss */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 514, icons/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 515, icons/_icons.scss */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 516, icons/_icons.scss */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 517, icons/_icons.scss */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 518, icons/_icons.scss */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 519, icons/_icons.scss */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 520, icons/_icons.scss */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 521, icons/_icons.scss */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 522, icons/_icons.scss */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 523, icons/_icons.scss */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 524, icons/_icons.scss */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 525, icons/_icons.scss */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 526, icons/_icons.scss */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 527, icons/_icons.scss */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 528, icons/_icons.scss */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 529, icons/_icons.scss */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 530, icons/_icons.scss */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 531, icons/_icons.scss */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 532, icons/_icons.scss */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 533, icons/_icons.scss */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 534, icons/_icons.scss */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 535, icons/_icons.scss */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 536, icons/_icons.scss */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 537, icons/_icons.scss */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 538, icons/_icons.scss */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 539, icons/_icons.scss */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 540, icons/_icons.scss */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 541, icons/_icons.scss */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 542, icons/_icons.scss */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 543, icons/_icons.scss */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 544, icons/_icons.scss */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 545, icons/_icons.scss */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 546, icons/_icons.scss */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 547, icons/_icons.scss */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 548, icons/_icons.scss */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 549, icons/_icons.scss */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 550, icons/_icons.scss */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 551, icons/_icons.scss */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 554, icons/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 555, icons/_icons.scss */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/* line 556, icons/_icons.scss */
+.fa-buysellads:before {
+  content: "\f20d";
+}
+
+/* line 557, icons/_icons.scss */
+.fa-connectdevelop:before {
+  content: "\f20e";
+}
+
+/* line 558, icons/_icons.scss */
+.fa-dashcube:before {
+  content: "\f210";
+}
+
+/* line 559, icons/_icons.scss */
+.fa-forumbee:before {
+  content: "\f211";
+}
+
+/* line 560, icons/_icons.scss */
+.fa-leanpub:before {
+  content: "\f212";
+}
+
+/* line 561, icons/_icons.scss */
+.fa-sellsy:before {
+  content: "\f213";
+}
+
+/* line 562, icons/_icons.scss */
+.fa-shirtsinbulk:before {
+  content: "\f214";
+}
+
+/* line 563, icons/_icons.scss */
+.fa-simplybuilt:before {
+  content: "\f215";
+}
+
+/* line 564, icons/_icons.scss */
+.fa-skyatlas:before {
+  content: "\f216";
+}
+
+/* line 565, icons/_icons.scss */
+.fa-cart-plus:before {
+  content: "\f217";
+}
+
+/* line 566, icons/_icons.scss */
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+/* line 567, icons/_icons.scss */
+.fa-diamond:before {
+  content: "\f219";
+}
+
+/* line 568, icons/_icons.scss */
+.fa-ship:before {
+  content: "\f21a";
+}
+
+/* line 569, icons/_icons.scss */
+.fa-user-secret:before {
+  content: "\f21b";
+}
+
+/* line 570, icons/_icons.scss */
+.fa-motorcycle:before {
+  content: "\f21c";
+}
+
+/* line 571, icons/_icons.scss */
+.fa-street-view:before {
+  content: "\f21d";
+}
+
+/* line 572, icons/_icons.scss */
+.fa-heartbeat:before {
+  content: "\f21e";
+}
+
+/* line 573, icons/_icons.scss */
+.fa-venus:before {
+  content: "\f221";
+}
+
+/* line 574, icons/_icons.scss */
+.fa-mars:before {
+  content: "\f222";
+}
+
+/* line 575, icons/_icons.scss */
+.fa-mercury:before {
+  content: "\f223";
+}
+
+/* line 576, icons/_icons.scss */
+.fa-transgender:before {
+  content: "\f224";
+}
+
+/* line 577, icons/_icons.scss */
+.fa-transgender-alt:before {
+  content: "\f225";
+}
+
+/* line 578, icons/_icons.scss */
+.fa-venus-double:before {
+  content: "\f226";
+}
+
+/* line 579, icons/_icons.scss */
+.fa-mars-double:before {
+  content: "\f227";
+}
+
+/* line 580, icons/_icons.scss */
+.fa-venus-mars:before {
+  content: "\f228";
+}
+
+/* line 581, icons/_icons.scss */
+.fa-mars-stroke:before {
+  content: "\f229";
+}
+
+/* line 582, icons/_icons.scss */
+.fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+/* line 583, icons/_icons.scss */
+.fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+/* line 584, icons/_icons.scss */
+.fa-neuter:before {
+  content: "\f22c";
+}
+
+/* line 585, icons/_icons.scss */
+.fa-facebook-official:before {
+  content: "\f230";
+}
+
+/* line 586, icons/_icons.scss */
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+
+/* line 587, icons/_icons.scss */
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+/* line 588, icons/_icons.scss */
+.fa-server:before {
+  content: "\f233";
+}
+
+/* line 589, icons/_icons.scss */
+.fa-user-plus:before {
+  content: "\f234";
+}
+
+/* line 590, icons/_icons.scss */
+.fa-user-times:before {
+  content: "\f235";
+}
+
+/* line 592, icons/_icons.scss */
+.fa-hotel:before,
+.fa-bed:before {
+  content: "\f236";
+}
+
+/* line 593, icons/_icons.scss */
+.fa-viacoin:before {
+  content: "\f237";
+}
+
+/* line 594, icons/_icons.scss */
+.fa-train:before {
+  content: "\f238";
+}
+
+/* line 595, icons/_icons.scss */
+.fa-subway:before {
+  content: "\f239";
+}
+
+/* line 596, icons/_icons.scss */
+.fa-medium:before {
+  content: "\f23a";
+}
+
+/* line 11, _ayrMain.scss */
+.paddingTB50 {
+  padding: 60px 0;
+}
+
+/* line 15, _ayrMain.scss */
+.raceCalendar li {
+  -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+/* line 19, _ayrMain.scss */
+div, ul, li, a, span, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, _ayrMain.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 28, _ayrMain.scss */
+.mm-page {
+  min-height: 100%;
+  display: block;
+  margin-bottom: -20px;
+}
+
+/* line 35, _ayrMain.scss */
+.row {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 40, _ayrMain.scss */
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+
+  /* line 44, _ayrMain.scss */
+  .L-col, .R-col {
+    margin-bottom: 30px;
+  }
+}
+/* line 49, _ayrMain.scss */
+.void {
+  margin-top: 0 !important;
+}
+
+/* line 53, _ayrMain.scss */
+.nav-tabs + .void {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: none;
+  margin-bottom: -45px;
+}
+
+/* line 63, _ayrMain.scss */
+body {
+  color: #222222;
+}
+
+/* line 67, _ayrMain.scss */
+h6, .viewAll, .readMore, a.viewAll, a.readMore, footer .newsCol .contourNavigation input, footer .newsCol label.fieldLabel, .featureList li.special .areaLink::before, .owl-carousel .owl-item div.detail span.title, .ayrListing a.title, .article a.title, .article a.articleTitle, #GetNews .pagination li a, #GetNews .pagination li span, #GetNews .pagination li a:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+/* line 73, _ayrMain.scss */
+h6 i, .viewAll i, .readMore i, footer .newsCol .contourNavigation input i, footer .newsCol label.fieldLabel i, .featureList li.special .areaLink::before i, .owl-carousel .owl-item div.detail span.title i, .ayrListing a.title i, .article a.title i, .article a.articleTitle i, #GetNews .pagination li a i, #GetNews .pagination li span i, #GetNews .pagination li a:hover i {
+  font-size: 18px;
+  line-height: 14px;
+}
+
+/* line 79, _ayrMain.scss */
+.Bluebttn, .contour.contact .contourNavigation input, .contour.contact .contourNavigation button, a.Bluebttn, .viewAll, a.viewAll, .Borderbttn, a.Borderbttn, a.areaLink, .intNav a, .nav-tabs a {
+  text-decoration: none;
+}
+/* line 82, _ayrMain.scss */
+.Bluebttn:hover, .contour.contact .contourNavigation input:hover, .contour.contact .contourNavigation button:hover, .viewAll:hover, .Borderbttn:hover, a.areaLink:hover, .intNav a:hover, .nav-tabs a:hover {
+  text-decoration: none;
+}
+
+/* line 87, _ayrMain.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #222222;
+}
+/* line 90, _ayrMain.scss */
+.carousel h1, .raceBanner h1, .carousel h2, .raceBanner h2, .carousel h3, .raceBanner h3, .carousel h4, .raceBanner h4, .carousel h5, .raceBanner h5, .carousel h6, .raceBanner h6 {
+  color: white;
+}
+/* line 94, _ayrMain.scss */
+h1 ~ h6, h2 ~ h6, h3 ~ h6, h4 ~ h6, h5 ~ h6, h6 ~ h6 {
+  margin: 1em 0;
+}
+
+/* line 99, _ayrMain.scss */
+h6 {
+  font-weight: 700;
+  color: #222222;
+}
+
+/* line 105, _ayrMain.scss */
+.Bluebttn, .contour.contact .contourNavigation input, .contour.contact .contourNavigation button, a.Bluebttn {
+  padding: 10px 15px;
+  border: 5px solid #1e4164;
+}
+/* line 109, _ayrMain.scss */
+.Bluebttn i, .contour.contact .contourNavigation input i, .contour.contact .contourNavigation button i, a.Bluebttn i {
+  margin-left: 0.6em;
+}
+/* line 113, _ayrMain.scss */
+.Bluebttn:active, .contour.contact .contourNavigation input:active, .contour.contact .contourNavigation button:active, .Bluebttn:visited, .contour.contact .contourNavigation input:visited, .contour.contact .contourNavigation button:visited, .Bluebttn:focus, .contour.contact .contourNavigation input:focus, .contour.contact .contourNavigation button:focus, a.Bluebttn:active, a.Bluebttn:visited, a.Bluebttn:focus {
+  border: 5px solid #1e4164;
+  background-color: #1e4164;
+}
+
+/* line 124, _ayrMain.scss */
+.viewAll:hover, .readMore:hover, a.viewAll:hover, a.readMore:hover {
+  border-color: #165594;
+  color: #165594;
+}
+/* line 129, _ayrMain.scss */
+.viewAll:active, .readMore:active, a.viewAll:active, a.readMore:active {
+  background-color: #1e4164;
+  border-color: #1e4164;
+  color: white;
+}
+
+/* line 136, _ayrMain.scss */
+.viewAll, a.viewAll {
+  display: block;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+/* line 142, _ayrMain.scss */
+.text-center .viewAll, .text-center a.viewAll {
+  margin: 15px auto 0;
+}
+
+/* line 149, _ayrMain.scss */
+.Borderbttn, a.Borderbttn {
+  color: #222222;
+}
+/* line 152, _ayrMain.scss */
+.Borderbttn:hover, a.Borderbttn:hover {
+  background-color: #165594;
+  color: white;
+  border-color: #1e4164;
+}
+/* line 158, _ayrMain.scss */
+.Borderbttn:active, a.Borderbttn:active {
+  background-color: #1e4164;
+}
+
+/* line 165, _ayrMain.scss */
+a.areaLink {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 0;
+}
+
+/* line 177, _ayrMain.scss */
+.headIntro h2 {
+  font-size: 20px;
+  line-height: 180%;
+  color: #222222;
+  margin: 45px 0;
+}
+
+/* line 186, _ayrMain.scss */
+.IheadText30 {
+  color: #222222;
+}
+
+/* line 190, _ayrMain.scss */
+.sponsorIntro, .sponsorName {
+  color: #222222;
+}
+
+@media screen and (max-width: 500px) {
+  /* line 194, _ayrMain.scss */
+  .sponsorIntro {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 333px) {
+  /* line 194, _ayrMain.scss */
+  .sponsorIntro {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+/* line 207, _ayrMain.scss */
+.R-col * + h1, .R-col * + h2, .R-col * + h3, .R-col * + h4, .R-col * + h5, .R-col * + h6 {
+  margin-top: 2em;
+}
+/* line 211, _ayrMain.scss */
+.R-col *:first-child {
+  margin-top: 0;
+}
+/* line 215, _ayrMain.scss */
+.R-col *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 221, _ayrMain.scss */
+.textCol {
+  height: auto;
+  min-height: 0;
+}
+/* line 225, _ayrMain.scss */
+.textCol::before {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  /* line 221, _ayrMain.scss */
+  .textCol {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
+
+/* line 234, _ayrMain.scss */
+i.fa {
+  margin: 0 4px;
+}
+
+/* line 241, _ayrMain.scss */
+header ul, footer ul, .intNav ul, .nav-tabs ul, .nav-tabs ul, .carousel ul, .slide ul, .latestNews ul, .raceCalendar ul, .latest-feed ul, .tc-grid ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+/* line 251, _ayrMain.scss */
+.col-md-12 h2:first-child:last-child {
+  text-align: center;
+}
+
+/* line 258, _ayrMain.scss */
+.hp-header header {
+  padding: 0;
+  background-color: white;
+}
+
+/* line 263, _ayrMain.scss */
+.topLogo {
+  padding: 45px 0;
+}
+/* line 267, _ayrMain.scss */
+.ip-header header .topLogo img {
+  max-width: 400px;
+}
+@media screen and (min-width: 992px) {
+  /* line 266, _ayrMain.scss */
+  .ip-header header .topLogo {
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 0;
+  }
+  /* line 276, _ayrMain.scss */
+  .ip-header header .topLogo img {
+    max-width: 260px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 266, _ayrMain.scss */
+  .ip-header header .topLogo {
+    margin-bottom: -30px;
+  }
+}
+/* line 286, _ayrMain.scss */
+.topLogo .Bluebttn, .topLogo .contour.contact .contourNavigation input, .contour.contact .contourNavigation .topLogo input, .topLogo .contour.contact .contourNavigation button, .contour.contact .contourNavigation .topLogo button {
+  border: 0;
+  padding: 20px 10px 15px;
+  margin-top: -5px;
+  transition: margin-top 0.3s ease-in-out;
+  -ms-transition: margin-top 0.3s ease-in-out;
+  -o-transition: margin-top 0.3s ease-in-out;
+  -webkit-transition: margin-top 0.3s ease-in-out;
+  -moz-transition: margin-top 0.3s ease-in-out;
+}
+/* line 292, _ayrMain.scss */
+.topLogo .Bluebttn:hover, .topLogo .contour.contact .contourNavigation input:hover, .contour.contact .contourNavigation .topLogo input:hover, .topLogo .contour.contact .contourNavigation button:hover, .contour.contact .contourNavigation .topLogo button:hover {
+  margin-top: 0;
+}
+/* line 297, _ayrMain.scss */
+.topLogo img {
+  width: 84%;
+  max-width: 400px;
+}
+
+/* line 303, _ayrMain.scss */
+.visible-xs .header {
+  padding: 5px;
+  height: auto !important;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 312, _ayrMain.scss */
+.visible-xs .header a {
+  display: block;
+  position: relative;
+  float: left;
+  background: none;
+  text-decoration: none;
+  left: 3px;
+}
+/* line 321, _ayrMain.scss */
+.visible-xs .header a::before {
+  color: #8a8a8a;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 332, _ayrMain.scss */
+  header .topLogo .Bluebttn, header .topLogo .contour.contact .contourNavigation input, .contour.contact .contourNavigation header .topLogo input, header .topLogo .contour.contact .contourNavigation button, .contour.contact .contourNavigation header .topLogo button {
+    position: absolute !important;
+    top: -52px;
+    right: -15px;
+    margin-top: 0;
+    padding: 15px 10px;
+    height: 52px;
+    line-height: 22px;
+    border: 0 !important;
+  }
+}
+/* line 347, _ayrMain.scss */
+div.mainNav {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  margin-top: -2px;
+}
+@media screen and (max-width: 992px) {
+  /* line 347, _ayrMain.scss */
+  div.mainNav {
+    display: none;
+  }
+}
+/* line 361, _ayrMain.scss */
+div.mainNav ul, div.mainNav li, div.mainNav a {
+  display: block;
+  width: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 369, _ayrMain.scss */
+div.mainNav ul.l0 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+/* line 380, _ayrMain.scss */
+div.mainNav li.l0, div.mainNav a.title {
+  display: inline;
+  display: inline-block;
+  position: relative;
+  white-space: normal;
+}
+/* line 387, _ayrMain.scss */
+div.mainNav a {
+  text-decoration: none;
+}
+/* line 391, _ayrMain.scss */
+div.mainNav a.title {
+  padding: 25px;
+  line-height: 15px;
+}
+@media screen and (max-width: 1060px) {
+  /* line 391, _ayrMain.scss */
+  div.mainNav a.title {
+    padding: 20px 15px;
+  }
+}
+/* line 404, _ayrMain.scss */
+div.mainNav li.l0.dd a.title::before {
+  float: right;
+  line-height: 15px;
+  font-size: 20px;
+  margin-left: 8px;
+}
+/* line 414, _ayrMain.scss */
+div.mainNav li.l0.dd:hover a.title {
+  background-color: #1e4164;
+  color: white;
+}
+/* line 419, _ayrMain.scss */
+div.mainNav li.l0.dd:hover ul.l1, div.mainNav li.l0.dd:hover div.l1 {
+  display: block;
+}
+/* line 425, _ayrMain.scss */
+div.mainNav ul.l1, div.mainNav div.l1 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 100%;
+  background-color: white;
+}
+/* line 433, _ayrMain.scss */
+div.mainNav ul.l1 a, div.mainNav div.l1 a {
+  line-height: 100%;
+}
+/* line 436, _ayrMain.scss */
+div.mainNav ul.l1 a:hover, div.mainNav div.l1 a:hover {
+  text-decoration: underline;
+}
+/* line 442, _ayrMain.scss */
+div.mainNav ul.l1 {
+  width: auto;
+  max-width: 400px;
+}
+/* line 447, _ayrMain.scss */
+div.mainNav div.l1 {
+  width: 700px;
+  padding: 10px;
+  text-align: left;
+  border-top: 1px solid #f0f0f0;
+}
+/* line 453, _ayrMain.scss */
+div.mainNav div.l1 .col-sm-4 {
+  display: block;
+  position: relative;
+  float: left;
+  width: 30%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/* line 462, _ayrMain.scss */
+div.mainNav div.l1 div.col-sm-4.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 20px solid white;
+  border-right: 10px solid white;
+  width: 40%;
+}
+/* line 156, _variables.scss */
+div.mainNav div.l1 div.col-sm-4.img img.bg {
+  width: 100% !important;
+  max-width: 1000% !important;
+  height: auto !important;
+}
+/* line 473, _ayrMain.scss */
+div.mainNav div.l1 div.col-sm-4.img + .col-sm-4 {
+  margin-left: 40%;
+}
+/* line 478, _ayrMain.scss */
+div.mainNav div.l1 h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+/* line 483, _ayrMain.scss */
+div.mainNav div.l1 h6 {
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-size: 15px;
+}
+/* line 489, _ayrMain.scss */
+div.mainNav div.l1 ul:last-child {
+  margin-top: -10px;
+}
+/* line 492, _ayrMain.scss */
+div.mainNav div.l1 ul:last-child li a {
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+/* line 500, _ayrMain.scss */
+div.mainNav li.l1 a {
+  padding: 15px;
+}
+/* line 504, _ayrMain.scss */
+div.mainNav li.l1:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* line 513, _ayrMain.scss */
+footer .newsCol {
+  padding: 20px;
+  overflow: hidden;
+}
+/* line 517, _ayrMain.scss */
+footer .newsCol div {
+  width: 100%;
+}
+/* line 521, _ayrMain.scss */
+footer .newsCol * {
+  max-width: 100%;
+}
+/* line 525, _ayrMain.scss */
+footer .newsCol div, footer .newsCol input, footer .newsCol label, footer .newsCol button, footer .newsCol form, footer .newsCol fieldset, footer .newsCol span {
+  display: inline;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: middle;
+  line-height: 21px;
+  z-index: 1;
+}
+/* line 541, _ayrMain.scss */
+footer .newsCol input {
+  padding: 10px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+/* line 545, _ayrMain.scss */
+footer .newsCol input[type=text] {
+  min-width: 260px;
+}
+/* line 550, _ayrMain.scss */
+footer .newsCol .contourNavigation {
+  margin-left: -10px;
+  z-index: 20;
+}
+/* line 554, _ayrMain.scss */
+footer .newsCol .contourNavigation input {
+  background-color: #1e4164;
+  color: white;
+  padding: 10px 20px;
+}
+/* line 560, _ayrMain.scss */
+footer .newsCol .contourNavigation input:hover {
+  background-color: #165594;
+}
+/* line 566, _ayrMain.scss */
+footer .newsCol .field-validation-valid {
+  display: none;
+}
+/* line 570, _ayrMain.scss */
+footer .newsCol .container {
+  padding: 0;
+  float: none;
+}
+/* line 575, _ayrMain.scss */
+footer .newsCol label.fieldLabel {
+  margin-right: 20px;
+  color: white;
+}
+/* line 580, _ayrMain.scss */
+footer .newsCol label.fieldLabel span {
+  display: none;
+}
+/* line 585, _ayrMain.scss */
+footer .newsCol span.help-block {
+  display: none;
+}
+@media screen and (max-width: 888px) {
+  /* line 590, _ayrMain.scss */
+  footer .newsCol label.fieldLabel, footer .newsCol .contourFieldSet {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 597, _ayrMain.scss */
+  footer .newsCol .contourFieldSet label, footer .newsCol .contourFieldSet div, footer .newsCol .contourFieldSet input {
+    width: 100%;
+  }
+  /* line 602, _ayrMain.scss */
+  footer .newsCol input, footer .newsCol label {
+    text-align: center;
+  }
+}
+/* line 610, _ayrMain.scss */
+footer .footer span.social ul {
+  margin: 0;
+  padding: 0;
+  float: none!important;
+}
+/* line 617, _ayrMain.scss */
+footer .footer .fLink a {
+  margin: 0;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* line 627, _ayrMain.scss */
+span.social ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/* line 633, _ayrMain.scss */
+span.social li {
+  position: relative;
+  display: inline-block;
+}
+/* line 636, _ayrMain.scss */
+span.social li span {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  right: 5px;
+}
+/* line 642, _ayrMain.scss */
+span.social li a {
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 40px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+/* line 649, _ayrMain.scss */
+span.social li i {
+  color: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+/* line 664, _ayrMain.scss */
+span.social li.tw a {
+  background-color: #00aced;
+}
+/* line 667, _ayrMain.scss */
+span.social li.tw a:hover {
+  background-color: #21c2ff;
+}
+/* line 672, _ayrMain.scss */
+span.social li.fb a {
+  background-color: #3b5998;
+}
+/* line 675, _ayrMain.scss */
+span.social li.fb a:hover {
+  background-color: #4c70ba;
+}
+/* line 680, _ayrMain.scss */
+span.social li.ln a {
+  background-color: #007bb6;
+}
+/* line 684, _ayrMain.scss */
+span.social li.ln a:hover {
+  background-color: #009de9;
+}
+/* line 689, _ayrMain.scss */
+span.social li.yt a {
+  background-color: #bb0000;
+}
+/* line 692, _ayrMain.scss */
+span.social li.yt a:hover {
+  background-color: #ee0000;
+}
+/* line 697, _ayrMain.scss */
+span.social li.insta a {
+  background-color: #517fa4;
+  display: inline-block;
+}
+/* line 701, _ayrMain.scss */
+span.social li.insta a:hover {
+  background-color: #7098b8;
+}
+
+/* line 708, _ayrMain.scss */
+.fl {
+  float: left;
+}
+
+/* line 711, _ayrMain.scss */
+.fr {
+  float: right;
+}
+
+/* line 716, _ayrMain.scss */
+.mb30 {
+  margin-bottom: 30px;
+}
+
+/* line 723, _ayrMain.scss */
+.mm-page {
+  background-color: white;
+}
+
+/* line 727, _ayrMain.scss */
+nav#menu {
+  background-color: #f0f0f0;
+  color: #1e4164;
+}
+/* line 734, _ayrMain.scss */
+nav#menu a.mm-subopen::after, nav#menu a.mm-subclose::before {
+  border-color: #666666;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 739, _ayrMain.scss */
+nav#menu li::after, nav#menu a.mm-subopen::before {
+  border-color: #cfcfcf;
+}
+/* line 743, _ayrMain.scss */
+nav#menu a.mm-subclose {
+  background-color: #cfcfcf;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #666666;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 749, _ayrMain.scss */
+nav#menu a.mm-subclose::before {
+  top: 37px;
+}
+/* line 755, _ayrMain.scss */
+nav#menu li.homeRoad a, nav#menu li.homeRoad img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 763, _ayrMain.scss */
+nav#menu li.homeRoad a {
+  padding: 30px;
+  margin: 15px 0;
+  text-align: center;
+}
+/* line 769, _ayrMain.scss */
+nav#menu li.homeRoad img {
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+/* line 779, _ayrMain.scss */
+.featureList h3 {
+  line-height: 140%;
+  color: #1e4164;
+}
+/* line 784, _ayrMain.scss */
+.featureList span.date {
+  color: #222222;
+}
+/* line 789, _ayrMain.scss */
+.featureList li.special .areaLink::before {
+  content: "Special Offer";
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  height: 70px;
+  width: 70px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  background-color: #8a8a8a;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 22px;
+  border: 1px solid white;
+  -moz-box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.5);
+}
+/* line 807, _ayrMain.scss */
+.featureList li.special .areaLink:hover {
+  z-index: 100;
+}
+/* line 810, _ayrMain.scss */
+.featureList li.special .areaLink:hover::before {
+  background-color: #4e8921;
+}
+/* line 817, _ayrMain.scss */
+.featureList ul li {
+  width: 24.5%;
+  margin: 0;
+  padding: 10px;
+}
+@media screen and (max-width: 999px) {
+  /* line 817, _ayrMain.scss */
+  .featureList ul li {
+    vertical-align: top;
+    width: 34% !important;
+    margin: 0 0 5px;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* line 817, _ayrMain.scss */
+  .featureList ul li {
+    width: 42% !important;
+  }
+}
+@media screen and (max-width: 660px) {
+  /* line 817, _ayrMain.scss */
+  .featureList ul li {
+    width: 49% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 817, _ayrMain.scss */
+  .featureList ul li {
+    width: 99% !important;
+  }
+}
+/* line 842, _ayrMain.scss */
+.featureList ul.regionsCol3 li {
+  width: 30%;
+}
+/* line 848, _ayrMain.scss */
+.featureList a.areaLink {
+  float: none;
+  max-width: 300px;
+  margin: 0 auto;
+  outline: 3px solid white;
+}
+/* line 853, _ayrMain.scss */
+.featureList a.areaLink::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  -moz-box-shadow: 0 0 0 8px white, 0 0 0 9px #165594, 0 20px 20px -10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 8px white, 0 0 0 9px #165594, 0 20px 20px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 8px white, 0 0 0 9px #165594, 0 20px 20px -10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+/* line 867, _ayrMain.scss */
+.featureList a.areaLink * {
+  position: relative;
+  z-index: 10;
+}
+/* line 875, _ayrMain.scss */
+.featureList a.areaLink:hover::after {
+  opacity: 1;
+}
+
+/* line 883, _ayrMain.scss */
+.weatherStn {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  color: #222222;
+}
+/* line 892, _ayrMain.scss */
+.weatherStn * {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+/* line 900, _ayrMain.scss */
+.weatherStn ul, .weatherStn li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 906, _ayrMain.scss */
+.weatherStn ul {
+  margin: 30px 0 25px;
+}
+/* line 910, _ayrMain.scss */
+.weatherStn li.day {
+  width: 17.6%;
+  margin-left: 3%;
+}
+/* line 914, _ayrMain.scss */
+.weatherStn li.day:first-child {
+  margin-left: 0;
+}
+/* line 919, _ayrMain.scss */
+.weatherStn h5, .weatherStn span.day {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222222;
+  text-transform: capitalize;
+  margin-bottom: 0.4em;
+}
+/* line 927, _ayrMain.scss */
+.weatherStn span.temp {
+  font-size: 24px;
+  margin-bottom: 0.4em;
+  color: #1e4164;
+}
+/* line 932, _ayrMain.scss */
+.weatherStn span.temp::after {
+  content: "º";
+}
+/* line 938, _ayrMain.scss */
+.weatherStn div.going h5 {
+  text-transform: uppercase;
+}
+/* line 942, _ayrMain.scss */
+.weatherStn div.going a {
+  width: auto;
+  color: #165594;
+  font-style: italic;
+}
+/* line 948, _ayrMain.scss */
+.weatherStn div.going a::before {
+  float: right;
+  font-size: 10px;
+  margin-left: 3px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+/* line 957, _ayrMain.scss */
+.weatherStn div.going a:hover::before {
+  opacity: 1;
+}
+/* line 965, _ayrMain.scss */
+.weatherStn li.day:first-of-type span.what::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -200px;
+  width: 2000px;
+  height: 100%;
+  background-color: #1e4164;
+  z-index: 1;
+  padding: 5px 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-color: #2c6093;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1e4164), to(#2c6093));
+  background-image: -webkit-linear-gradient(top, #1e4164, #2c6093);
+  background-image: -moz-linear-gradient(top, #1e4164, #2c6093);
+  background-image: -ms-linear-gradient(top, #1e4164, #2c6093);
+  background-image: -o-linear-gradient(top, #1e4164, #2c6093);
+  background-image: linear-gradient(top, #1e4164, #2c6093);
+  -moz-box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 0 #689dd2;
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 0 #689dd2;
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 0 #689dd2;
+}
+/* line 983, _ayrMain.scss */
+.weatherStn span.what {
+  padding: 10px 0;
+  margin: 5px 0;
+  z-index: 1;
+}
+/* line 989, _ayrMain.scss */
+.weatherStn span.what img {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  z-index: 2000;
+  left: -2px;
+}
+/* line 997, _ayrMain.scss */
+.no-generatedcontent .weatherStn span.what {
+  background-color: #1e4164;
+  outline: 5px solid #1e4164;
+}
+/* line 1003, _ayrMain.scss */
+.weatherStn + * {
+  margin-top: 30px !important;
+}
+
+/* line 1008, _ayrMain.scss */
+.img-col.primed {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 156, _variables.scss */
+.img-col.primed img.bg {
+  width: 100% !important;
+  max-width: 1000% !important;
+  height: auto !important;
+}
+
+/* line 1018, _ayrMain.scss */
+.intNav.fixd, .fixd.nav-tabs {
+  position: fixed;
+  top: 0;
+  height: auto;
+  z-index: 1000;
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+/* line 1026, _ayrMain.scss */
+.intNav.fixd::after, .fixd.nav-tabs::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+/* line 1038, _ayrMain.scss */
+.intNav.fixd a, .fixd.nav-tabs a {
+  padding: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 1013, _ayrMain.scss */
+  .intNav, .nav-tabs {
+    padding: 45px 0 15px;
+    border-bottom: 1px solid #cfcfcf;
+  }
+  /* line 1047, _ayrMain.scss */
+  .intNav::before, .nav-tabs::before {
+    content: "Jump to";
+    font-size: 12px;
+    color: #8a8a8a;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1060, _ayrMain.scss */
+  .intNav ul li, .nav-tabs ul li {
+    margin: 0;
+  }
+  /* line 1063, _ayrMain.scss */
+  .intNav ul li a, .nav-tabs ul li a {
+    padding: 10px;
+    border: 0;
+  }
+  /* line 1068, _ayrMain.scss */
+  .intNav ul li.active a, .nav-tabs ul li.active a, .intNav ul li a:hover, .nav-tabs ul li a:hover, .intNav ul li a:active, .nav-tabs ul li a:active {
+    border: 0;
+  }
+  /* line 1072, _ayrMain.scss */
+  .intNav ul li:active, .nav-tabs ul li:active {
+    background-color: rgba(30, 65, 100, 0.1);
+  }
+}
+
+/* line 1080, _ayrMain.scss */
+.subnav-grid ul li a:focus, .subnav-grid ul li a:active, .subnav-grid ul li a:visited {
+  border: 0;
+}
+
+/* line 1088, _ayrMain.scss */
+.nav-tabs li {
+  margin: 0 5px !important;
+}
+/* line 1091, _ayrMain.scss */
+.nav-tabs li a {
+  padding: 20px !important;
+}
+@media screen and (max-width: 769px) {
+  /* line 1085, _ayrMain.scss */
+  .nav-tabs {
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0 0 -60px !important;
+    padding: 0;
+  }
+}
+
+/* line 1106, _ayrMain.scss */
+div.tab-col div.tab-content {
+  background-color: transparent;
+}
+/* line 1109, _ayrMain.scss */
+div.tab-col div.tab-content .headIntro {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 1114, _ayrMain.scss */
+div.tab-col div.tab-content a.accordion-link {
+  background-color: white !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  letter-spacing: 0.04em !important;
+  padding: 45px 0 0 !important;
+  margin: 30px 0 -30px !important;
+  border-top: 1px solid #cfcfcf !important;
+  border-bottom: 0 !important;
+  color: #222222 !important;
+}
+/* line 1126, _ayrMain.scss */
+div.tab-col div.tab-content a.accordion-link i {
+  font-size: 18px;
+  line-height: 14px;
+}
+@media screen and (max-width: 769px) {
+  /* line 1133, _ayrMain.scss */
+  div.tab-col div.tab-content div.tab-pane {
+    display: block !important;
+  }
+  /* line 1137, _ayrMain.scss */
+  div.tab-col div.tab-content a.accordion-link {
+    display: block !important;
+  }
+  /* line 1141, _ayrMain.scss */
+  div.tab-col div.tab-content a.accordion-link.first.last {
+    border-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* line 1152, _ayrMain.scss */
+div.carousel .item {
+  background-color: black;
+}
+/* line 1155, _ayrMain.scss */
+div.carousel .item * {
+  z-index: 1;
+}
+/* line 1159, _ayrMain.scss */
+div.carousel .item .carousel-item {
+  opacity: 0.55;
+  z-index: 0;
+}
+/* line 1165, _ayrMain.scss */
+div.carousel .container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+/* line 1174, _ayrMain.scss */
+div.carousel .container::before, div.carousel .container::after {
+  display: none;
+}
+/* line 1179, _ayrMain.scss */
+div.carousel .carousel-caption {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+/* line 1191, _ayrMain.scss */
+div.carousel .carousel-indicators li {
+  display: inline;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 0;
+  width: 12px;
+  height: 12px;
+  -moz-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+/* line 1203, _ayrMain.scss */
+div.carousel .carousel-indicators li.active {
+  background-color: white;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+/* line 1211, _ayrMain.scss */
+div.carousel#myCarousel a.carousel-control {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100px;
+}
+/* line 1219, _ayrMain.scss */
+div.carousel#myCarousel img {
+  position: absolute;
+  height: 80px;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -20px;
+}
+
+/* line 1230, _ayrMain.scss */
+.owl-carousel {
+  background-color: #f0f0f0;
+  background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.07) 75%, rgba(0, 0, 0, 0.07)), linear-gradient(120deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.07) 75%, rgba(0, 0, 0, 0.07));
+  background-size: 70px 120px;
+}
+/* line 1233, _ayrMain.scss */
+.owl-carousel .owl-item {
+  background-color: black;
+}
+/* line 1236, _ayrMain.scss */
+.owl-carousel .owl-item * {
+  z-index: 1;
+}
+/* line 1240, _ayrMain.scss */
+.owl-carousel .owl-item img {
+  z-index: 0;
+}
+/* line 1244, _ayrMain.scss */
+.owl-carousel .owl-item div.detail {
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 1248, _ayrMain.scss */
+.owl-carousel .owl-item div.detail *:first-child {
+  margin-top: 0;
+}
+/* line 1252, _ayrMain.scss */
+.owl-carousel .owl-item div.detail *:last-child {
+  margin-bottom: 0;
+}
+/* line 1256, _ayrMain.scss */
+.owl-carousel .owl-item div.detail ~ img {
+  opacity: 0.4;
+}
+/* line 1260, _ayrMain.scss */
+.owl-carousel .owl-item div.detail span.title {
+  display: block;
+  margin-bottom: 1em;
+}
+/* line 1267, _ayrMain.scss */
+.owl-carousel .owl-item .panelLink {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* line 1274, _ayrMain.scss */
+.owl-carousel .owl-item .panelLink:hover {
+  background-color: #152d45;
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+/* line 1282, _ayrMain.scss */
+.owl-carousel .owl-controls .owl-dots {
+  display: none;
+}
+/* line 1287, _ayrMain.scss */
+.owl-carousel .owl-controls .owl-nav div {
+  display: block !important;
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 200;
+}
+/* line 1296, _ayrMain.scss */
+.owl-carousel .owl-controls .owl-nav div.owl-prev {
+  left: 0;
+}
+/* line 1300, _ayrMain.scss */
+.owl-carousel .owl-controls .owl-nav div.owl-next {
+  right: 0;
+}
+@media screen and (max-width: 1260px) {
+  /* line 1287, _ayrMain.scss */
+  .owl-carousel .owl-controls .owl-nav div {
+    width: 40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* line 1287, _ayrMain.scss */
+  .owl-carousel .owl-controls .owl-nav div {
+    height: 36px;
+    width: 36px;
+    top: auto;
+    bottom: -18px;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #8a8a8a;
+    opacity: 1;
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  /* line 1320, _ayrMain.scss */
+  .owl-carousel .owl-controls .owl-nav div.owl-next {
+    right: auto;
+    left: 50%;
+  }
+  /* line 1326, _ayrMain.scss */
+  .owl-carousel .owl-controls .owl-nav div.owl-prev {
+    left: auto;
+    right: 50%;
+  }
+  /* line 1332, _ayrMain.scss */
+  .owl-carousel .owl-controls .owl-nav div::before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-indent: 0;
+  }
+}
+
+/* line 1351, _ayrMain.scss */
+a.carousel-control, div.owl-next, div.owl-prev {
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
+}
+/* line 1355, _ayrMain.scss */
+a.carousel-control:hover, div.owl-next:hover, div.owl-prev:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 1360, _ayrMain.scss */
+a.carousel-control:active, div.owl-next:active, div.owl-prev:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 1365, _ayrMain.scss */
+.raceBanner {
+  color: white;
+  font-size: 20px;
+  line-height: 160%;
+  background-color: black;
+}
+/* line 1371, _ayrMain.scss */
+.raceBanner .innJumper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 1375, _ayrMain.scss */
+.raceBanner .innerHero {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+/* line 156, _variables.scss */
+.raceBanner .innerHero img.bg {
+  width: 100% !important;
+  max-width: 1000% !important;
+  height: auto !important;
+}
+
+/* line 1383, _ayrMain.scss */
+.innJumper img, .carousel-caption img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 260px;
+  margin: 0 auto 1em;
+}
+
+/* line 1393, _ayrMain.scss */
+.tabSlider img {
+  max-width: 100%;
+}
+
+/* line 1398, _ayrMain.scss */
+.minBanner.fullPage {
+  height: auto;
+  min-height: 0;
+  background-color: black;
+}
+/* line 1403, _ayrMain.scss */
+.minBanner.fullPage .innJumper {
+  padding: 100px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+/* line 1410, _ayrMain.scss */
+.minBanner.fullPage .innJumper * {
+  color: white;
+}
+/* line 1415, _ayrMain.scss */
+.minBanner.fullPage .innerHero {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.55;
+}
+/* line 156, _variables.scss */
+.minBanner.fullPage .innerHero img.bg {
+  width: 100% !important;
+  max-width: 1000% !important;
+  height: auto !important;
+}
+
+/* line 1429, _ayrMain.scss */
+.contour.contact, .contour.contact div, .contour.contact span, .contour.contact input, .contour.contact textarea, .contour.contact button, .contour.contact select, .contour.contact option, .contour.contact fieldset, .contour.contact label {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  clear: left;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 1451, _ayrMain.scss */
+.contour.contact script {
+  display: none;
+}
+/* line 1455, _ayrMain.scss */
+.contour.contact .contourPage {
+  max-width: 500px;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border: 1px solid #cfcfcf;
+  margin: 0 0 60px;
+}
+/* line 1463, _ayrMain.scss */
+.contour.contact .contourPageName {
+  display: none;
+}
+/* line 1467, _ayrMain.scss */
+.contour.contact label {
+  margin-bottom: 0.33em;
+}
+/* line 1470, _ayrMain.scss */
+.contour.contact label span {
+  display: inline;
+  float: none;
+  width: auto;
+  color: red;
+}
+/* line 1478, _ayrMain.scss */
+.contour.contact input, .contour.contact textarea, .contour.contact select {
+  padding: 7px;
+  border: 1px solid #cfcfcf;
+}
+/* line 1483, _ayrMain.scss */
+.contour.contact textarea {
+  min-height: 140px;
+}
+/* line 1488, _ayrMain.scss */
+.contour.contact .contourError input, .contour.contact .contourError textarea, .contour.contact .contourError select {
+  border-color: red;
+}
+/* line 1493, _ayrMain.scss */
+.contour.contact .contourField + .contourField, .contour.contact .contourNavigation {
+  margin-top: 1em;
+}
+/* line 1497, _ayrMain.scss */
+.contour.contact .contourNavigation {
+  margin-top: 30px;
+}
+/* line 1500, _ayrMain.scss */
+.contour.contact .contourNavigation input, .contour.contact .contourNavigation button {
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
+}
+
+/* line 1512, _ayrMain.scss */
+.ayrListing, .article {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+/* line 1520, _ayrMain.scss */
+.ayrListing span.date, .article span.date {
+  color: #222222;
+}
+/* line 1524, _ayrMain.scss */
+.ayrListing a.title, .article a.title {
+  display: block;
+  line-height: 160%;
+  margin: 0 0 1em;
+}
+/* line 1531, _ayrMain.scss */
+.ayrListing a.readMore, .article a.readMore {
+  margin: 1em 0 0;
+}
+/* line 1535, _ayrMain.scss */
+.ayrListing + .ayrListing, .article + .ayrListing, .ayrListing + .article, .article + .article {
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 24px;
+}
+
+/* line 1546, _ayrMain.scss */
+.feeeds {
+  padding: 60px 0 0;
+}
+/* line 1549, _ayrMain.scss */
+.feeeds .col-sm-4 {
+  float: left;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 900px) {
+  /* line 1549, _ayrMain.scss */
+  .feeeds .col-sm-4 {
+    width: 50%;
+  }
+  /* line 1560, _ayrMain.scss */
+  .feeeds .col-sm-4.latest-feed {
+    width: 100%;
+  }
+  /* line 1563, _ayrMain.scss */
+  .feeeds .col-sm-4.latest-feed .ayrListing, .feeeds .col-sm-4.latest-feed .article {
+    width: 48.5%;
+    margin: 0 0 20px 3%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  /* line 1569, _ayrMain.scss */
+  .feeeds .col-sm-4.latest-feed .ayrListing + li.ayrListing, .feeeds .col-sm-4.latest-feed .article + li.ayrListing, .feeeds .col-sm-4.latest-feed .ayrListing + li.article, .feeeds .col-sm-4.latest-feed .article + li.article {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+  /* line 1575, _ayrMain.scss */
+  .feeeds .col-sm-4.latest-feed .ayrListing:nth-of-type(2n+1), .feeeds .col-sm-4.latest-feed .article:nth-of-type(2n+1) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 1549, _ayrMain.scss */
+  .feeeds .col-sm-4 {
+    width: 100%;
+  }
+  /* line 1586, _ayrMain.scss */
+  .feeeds .col-sm-4.latest-feed .ayrListing, .feeeds .col-sm-4.latest-feed .article {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* line 1597, _ayrMain.scss */
+.fpHosp .headIntro h2 {
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  /* line 1602, _ayrMain.scss */
+  .fpHosp .listlessBttn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 1615, _ayrMain.scss */
+.raceCalendar {
+  padding: 45px 0;
+}
+/* line 1618, _ayrMain.scss */
+.raceCalendar li {
+  position: relative;
+  padding-left: 33.33333%;
+  padding-bottom: 50px;
+  margin: 0;
+}
+/* line 1627, _ayrMain.scss */
+.raceCalendar li + li {
+  margin-top: 30px;
+}
+/* line 1631, _ayrMain.scss */
+.raceCalendar li a.poster, .raceCalendar li a.poster .img-col {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 156, _variables.scss */
+.raceCalendar li a.poster img.bg, .raceCalendar li a.poster .img-col img.bg {
+  width: 100% !important;
+  max-width: 1000% !important;
+  height: auto !important;
+}
+/* line 1640, _ayrMain.scss */
+.raceCalendar li a.poster {
+  width: 33.33333%;
+  background-color: #165594;
+}
+/* line 1644, _ayrMain.scss */
+.raceCalendar li a.poster .img-col {
+  width: 100%;
+  z-index: 1;
+}
+/* line 1650, _ayrMain.scss */
+.raceCalendar li a.poster:hover .img-col {
+  opacity: 0.8;
+}
+/* line 1656, _ayrMain.scss */
+.raceCalendar li .raceDetails {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 30px;
+}
+/* line 1664, _ayrMain.scss */
+.raceCalendar li .raceDetails .date .blueText {
+  margin-left: 0.4em;
+  color: #165594;
+  font-size: 15px;
+  line-height: 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 1675, _ayrMain.scss */
+  .raceCalendar li {
+    padding-left: 50%;
+    text-align: left;
+  }
+  /* line 1679, _ayrMain.scss */
+  .raceCalendar li .Bluebttn, .raceCalendar li .contour.contact .contourNavigation input, .contour.contact .contourNavigation .raceCalendar li input, .raceCalendar li .contour.contact .contourNavigation button, .contour.contact .contourNavigation .raceCalendar li button {
+    width: auto;
+  }
+  /* line 1683, _ayrMain.scss */
+  .raceCalendar li a.poster {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 1699, _ayrMain.scss */
+  .raceCalendar li .raceDetails {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 488px) {
+  /* line 1706, _ayrMain.scss */
+  .raceCalendar li {
+    padding-left: 0;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  /* line 1711, _ayrMain.scss */
+  .raceCalendar li a.poster {
+    position: relative;
+    width: 100%;
+    height: 250px;
+  }
+  /* line 1717, _ayrMain.scss */
+  .raceCalendar li .Bluebttn, .raceCalendar li .contour.contact .contourNavigation input, .contour.contact .contourNavigation .raceCalendar li input, .raceCalendar li .contour.contact .contourNavigation button, .contour.contact .contourNavigation .raceCalendar li button {
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+  }
+  /* line 1723, _ayrMain.scss */
+  .raceCalendar li .raceDetails {
+    padding-bottom: 0;
+  }
+}
+
+/* line 1732, _ayrMain.scss */
+.jumpSection {
+  padding-bottom: 45px;
+}
+/* line 1735, _ayrMain.scss */
+.jumpSection .headIntro {
+  padding: 45px 0;
+}
+/* line 1738, _ayrMain.scss */
+.jumpSection .headIntro *:first-child {
+  margin-top: 0;
+}
+/* line 1742, _ayrMain.scss */
+.jumpSection .headIntro *:last-child {
+  margin-bottom: 0;
+}
+/* line 1747, _ayrMain.scss */
+.jumpSection + .jumpSection {
+  border-top: 1px solid #cfcfcf;
+}
+
+/* line 1754, _ayrMain.scss */
+.tc-grid .ticket.shy {
+  display: none;
+  opacity: 0;
+}
+/* line 1760, _ayrMain.scss */
+.tc-grid .more {
+  display: none;
+}
+/* line 1769, _ayrMain.scss */
+.tc-grid.open .more a {
+  overflow: hidden;
+  font-size: 0;
+}
+/* line 1773, _ayrMain.scss */
+.tc-grid.open .more a::before {
+  content: "Show Less";
+  font-size: 14px;
+}
+
+/* line 1784, _ayrMain.scss */
+.latestNews .img-col {
+  background: none !important;
+  padding: 0;
+}
+/* line 1788, _ayrMain.scss */
+.latestNews .img-col img {
+  display: block !important;
+}
+/* line 1793, _ayrMain.scss */
+.latestNews ul {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+@media screen and (max-width: 768px) {
+  /* line 1803, _ayrMain.scss */
+  .latestNews .col-sm-8.raceDetails {
+    padding-left: 0;
+    margin-top: 2em;
+    text-align: left;
+  }
+}
+
+/* line 1815, _ayrMain.scss */
+.article.summary {
+  margin-bottom: 5px !important;
+}
+/* line 1819, _ayrMain.scss */
+.article a.articleTitle {
+  display: block;
+  margin: 0 0 1em;
+}
+/* line 1825, _ayrMain.scss */
+.article a.viewAll {
+  left: -20px;
+  position: relative;
+  border-color: transparent;
+}
+/* line 1830, _ayrMain.scss */
+.article a.viewAll:hover {
+  left: 0;
+  border-color: #1e4164;
+  transition: border 0.3s ease-in-out, left 0.15s ease-in-out;
+  -ms-transition: border 0.3s ease-in-out, left 0.15s ease-in-out;
+  -o-transition: border 0.3s ease-in-out, left 0.15s ease-in-out;
+  -webkit-transition: border 0.3s ease-in-out, left 0.15s ease-in-out;
+  -moz-transition: border 0.3s ease-in-out, left 0.15s ease-in-out;
+}
+/* line 1836, _ayrMain.scss */
+.touch .article a.viewAll {
+  border-color: #1e4164;
+  left: 0;
+}
+/* line 1842, _ayrMain.scss */
+.article h6:first-child {
+  margin-bottom: 0.5em;
+}
+/* line 1846, _ayrMain.scss */
+.article .articleTitle.heading {
+  font-size: 30px;
+  color: #1e4164;
+  margin: 0 0 1em;
+  line-height: 133%;
+}
+/* line 1853, _ayrMain.scss */
+.article .richText {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #cfcfcf;
+}
+/* line 1861, _ayrMain.scss */
+.article .richText h3 {
+  color: #1e4164;
+  margin: 2em 0 1em;
+}
+/* line 1866, _ayrMain.scss */
+.article .richText img {
+  max-width: 100%;
+  display: block;
+  margin: 2em 0;
+}
+
+/* line 1874, _ayrMain.scss */
+.newsNav {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cfcfcf;
+  text-align: right;
+}
+/* line 1880, _ayrMain.scss */
+.newsNav * {
+  text-align: left;
+}
+/* line 1884, _ayrMain.scss */
+.newsNav ul {
+  margin: 30px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f0f0f0;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+/* line 1894, _ayrMain.scss */
+.newsNav a.viewAll {
+  border-color: #1e4164;
+}
+/* line 1897, _ayrMain.scss */
+.newsNav a.viewAll:hover {
+  background-color: #1e4164;
+  color: white;
+}
+
+/* line 1904, _ayrMain.scss */
+#GetNews {
+  padding: 0 45px 0 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 1904, _ayrMain.scss */
+  #GetNews {
+    padding: 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #1e4164;
+  }
+  /* line 1912, _ayrMain.scss */
+  #GetNews + .latest-feed {
+    padding: 0;
+  }
+}
+/* line 1923, _ayrMain.scss */
+#GetNews .pagination li a {
+  color: #1e4164;
+}
+/* line 1926, _ayrMain.scss */
+#GetNews .pagination li a:hover {
+  text-decoration: underline;
+}
+/* line 1932, _ayrMain.scss */
+#GetNews .pagination li.active a {
+  color: #8a8a8a;
+  pointer-events: none;
+}
+
+/* line 1943, _ayrMain.scss */
+.packageCol ul {
+  padding: 0;
+  margin: 0 0 2em;
+}
+/* line 1947, _ayrMain.scss */
+.packageCol ul li {
+  list-style: none;
+  margin: 1em auto;
+  max-width: 600px;
+}
+/* line 1954, _ayrMain.scss */
+.packageCol h2 + ul {
+  margin-top: -1em;
+}
+
+/* line 1959, _ayrMain.scss */
+ul.faqListless {
+  padding: 0;
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* line 1965, _ayrMain.scss */
+ul.faqListless li, ul.faqListless a.accordion-toggle {
+  position: relative;
+}
+/* line 1969, _ayrMain.scss */
+ul.faqListless span.fa-plus-circle, ul.faqListless span.fa-plus-circle.fa-minus-circle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px !important;
+  padding: 0;
+  height: 100%;
+}
+/* line 1978, _ayrMain.scss */
+ul.faqListless span.fa-plus-circle::before, ul.faqListless span.fa-plus-circle.fa-minus-circle::before {
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  text-align: center;
+  left: 0;
+}
+/* line 1993, _ayrMain.scss */
+ul.faqListless span.fa-plus-circle.fa-minus-circle::before {
+  position: relative;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  color: #666666;
+}
+/* line 2001, _ayrMain.scss */
+ul.faqListless .faqLeft {
+  font-size: 17px;
+}
+/* line 2005, _ayrMain.scss */
+ul.faqListless .panel .panel-body {
+  padding-top: 20px;
+}
+
+/* line 2012, _ayrMain.scss */
+ul.regionsBttn {
+  padding: 30px 0;
+  margin: -15px 0 0;
+}
+/* line 2016, _ayrMain.scss */
+ul.regionsBttn li {
+  overflow: visible;
+  margin: 5px;
+}
+/* line 2021, _ayrMain.scss */
+ul.regionsBttn a.Bluebttn {
+  position: relative;
+  top: -30px;
+}
+/* line 2026, _ayrMain.scss */
+.paddingTB30 ul.regionsBttn {
+  padding: 0;
+}
+/* line 2029, _ayrMain.scss */
+.paddingTB30 ul.regionsBttn a.Bluebttn {
+  top: 0;
+}
+
+/* line 2036, _ayrMain.scss */
+.IheadText30 + .text-center a {
+  margin: 0 auto 30px !important;
+}
